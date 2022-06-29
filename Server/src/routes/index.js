@@ -3,7 +3,7 @@ const model = require('../model/task.js');
 
 const router = Router();
 
-router.post('/user', async (req, res)=>{
+router.post('/task', async (req, res)=>{
     let body = req.body;
     try {
         let task = await model.create(body);
@@ -13,5 +13,14 @@ router.post('/user', async (req, res)=>{
         res.json(error);
     }  
 });
+
+router.get('/task', async (req, res)=>{
+    try {
+        let task = await model.find();
+        res.json(task);
+    } catch (error) {
+        
+    }
+})
 
 module.exports =  router;
