@@ -1,17 +1,17 @@
 const { Router } = require('express');
 const model = require('../model/task.js');
 
-const modelMongo = model();
 const router = Router();
 
-router.get('/', (req, res)=>{
-    modelMongo.find({}, (err, tasks)=>{
-        if (err) {
-            throw err;
-        } else {
-            res.render('index')
-        }
-    })
+router.post('/user', async (req, res)=>{
+    let body = req.body;
+    try {
+        let task = await model.create(body);
+        res.json(task);
+        
+    } catch (error) {
+        res.json(error);
+    }  
 });
 
-module.exports =  router
+module.exports =  router;
