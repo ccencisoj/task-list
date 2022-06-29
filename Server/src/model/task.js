@@ -6,14 +6,14 @@ let task = new Schema({
     title: {type: String, required: true},
     description: String,
     usuario: String,
+    date: {type: Date, default: ()=>Date.now(), required: true},
     status: Boolean
 });
 
 task.set('toJSON', {
     transform: (document, returnObject)=>{
       delete returnObject._id;
-      delete returnObject.__v;
-      returnObject.example = true;   
+      delete returnObject.__v; 
     }
 });
 
