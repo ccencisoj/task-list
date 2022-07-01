@@ -1,0 +1,36 @@
+.user_card {
+  gap: 8px;
+  height: 48px;
+  display: flex;
+  cursor: pointer;
+  padding: 0px 12px;
+  border-radius: 5px;
+  flex-direction: row;
+  align-items: center;
+  background-color: var(--secondary-color);
+
+  .image {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+  }
+
+  .username {
+    color: #fff;
+    font-weight: 500;
+  }
+
+  .icon {
+    color: #fff;
+    width: 20px;
+    height: 20px;
+  }
+}
+
+.user_card:hover {
+  background-color: var(--secondary-color-hover);
+}
+
+.user_card:active {
+  background-color: var(--secondary-color-active);
+}

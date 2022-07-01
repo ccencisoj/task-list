@@ -1,0 +1,26 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon -r dotenv/config -r express-async-errors src/index.js",
+    "start": "node -r express-async-errors src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "data-uri-to-buffer": "^4.0.0",
+    "delay": "^5.0.0",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-async-errors": "^3.1.1",
+    "express-session": "^1.17.3",
+    "joi": "^17.6.0",
+    "joi-objectid": "^4.0.2",
+    "mongoose": "^6.4.1",
+    "nanoid": "3.3"
+  }
+}

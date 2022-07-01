@@ -1,0 +1,30 @@
+.container {
+  width: 100%;
+  display: flex;
+}
+
+.max_content {
+  width: max-content;
+}
+
+.row_direction {
+  align-items: center;
+  flex-direction: row;
+}
+
+.column_direction {
+  align-items: center;
+  flex-direction: column;
+}
+
+.small_separation {
+  gap: 12px;
+}
+
+.medium_separation {
+  gap: 24px;
+}
+
+.big_separation {
+  gap: 32px;
+}

@@ -1,0 +1,31 @@
+.navigation {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  display: flex;
+  z-index: 1000;
+  position: sticky;
+  padding: 0px 12px;
+  flex-direction: row;
+  box-sizing: border-box;
+  border-bottom: 1px #444 solid;
+  min-height: var(--navigation-height);
+  background-color: var(--primary-background);
+
+  .left {
+    flex: 1;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+  }
+
+  .right {
+    flex: 1;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+}
