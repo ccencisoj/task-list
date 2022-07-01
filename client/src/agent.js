@@ -39,8 +39,6 @@ const Task = {
     requests.delete(`/task/delete?taskId${taskId}`)
 };
 
-console.log("ok");
-
 export default {
   User,
   Task
