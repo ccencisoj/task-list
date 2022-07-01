@@ -35,4 +35,15 @@ router.delete('/task', async (req, res)=>{
     }
 })
 
+router.put('/task', async (req, res)=>{
+    let body = req.body;
+    let query = req.query;
+    try {
+        let taskUpdate = await model.updateOne(query, body);
+        res.json(taskUpdate);
+    } catch (error) {
+        res.send(error);
+    }
+})
+
 module.exports =  router;
