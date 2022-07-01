@@ -1,0 +1,60 @@
+.field {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+
+  .label {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 4px;
+  }
+
+  .row {
+    width: 100%;
+    display: flex;
+    border-radius: 5px;
+    align-items: center;
+    flex-direction: row;
+    box-sizing: border-box;
+    border: 2px #999 solid;
+
+    .input {
+      color: #fff;
+      width: 100%;
+      height: 64px;
+      font-size: 18px;
+      padding: 0px 12px;
+      box-sizing: border-box;
+    }
+
+    .input::-webkit-scrollbar {
+      display: none;
+    }
+
+    .actions {
+      top: 0px;
+      right: 0px;
+      height: 100%;
+      position: absolute;
+      border-left: 2px #999 solid;
+    }
+  }
+
+  .error {
+    width: 100%;
+    color: #f00;
+    font-size: 14px;
+    margin-top: 4px;
+  }
+}
+
+.focused {
+  .row {
+    border: 2px #fff solid;
+
+    .actions {
+      border-left: 2px #fff solid;
+    }
+  }
+}

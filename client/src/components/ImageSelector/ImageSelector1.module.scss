@@ -1,0 +1,38 @@
+.image_selector {
+  width: 100%;
+  height: 72px;
+  display: flex;
+  padding: 0px 12px;
+  border-radius: 5px;
+  align-items: center;
+  flex-direction: row;
+  box-sizing: border-box;
+  border: 2px #999 solid;
+
+  .image {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+
+  .label {
+    flex: 1;
+    color: #fff;
+    font-size: 18px;
+    margin-left: 12px;
+  }
+
+  .icon {
+    width: 24px;
+    height: 24px;
+    color: #fff;
+  }
+}
+
+.image_selector:hover {
+  background-color: #fff1;
+}
+
+.image_selector:active {
+  background-color: #fff2;
+}

@@ -1,0 +1,51 @@
+.radio_box {
+  gap: 8px;
+  width: 100%;
+  display: flex;
+  padding: 12px 12px;
+  border-radius: 5px;
+  flex-direction: row;
+  box-sizing: border-box;
+  border: 2px #999 solid;
+
+  .circle {
+    width: 14px;
+    height: 14px;
+    display: flex;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    border: 2px #999 solid;
+
+    .thumb {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background-color: #999;
+    }
+  }
+
+  .label {
+    color: #fff;
+  }
+}
+
+.radio_box:hover {
+  background-color: #fff1;
+}
+
+.radio_box:active {
+  background-color: #fff2;
+}
+
+.selected {
+  border: 2px var(--primary-color) solid;
+
+  .circle {
+    border: 2px var(--primary-color) solid;
+
+    .thumb {
+      background-color: var(--primary-color);
+    }
+  }
+}

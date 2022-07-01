@@ -1,0 +1,22 @@
+.task_form {
+  width: 100%;
+  display: flex;
+  padding: 48px 5vw;
+  box-sizing: border-box;
+  flex-direction: column;
+
+  .main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer {
+    width: 100%;
+    display: flex;
+    padding: 24px 0px;
+    flex-direction: row;
+    box-sizing: border-box;
+    justify-content: flex-end;
+  }
+}

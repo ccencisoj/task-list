@@ -1,0 +1,35 @@
+.task_card {
+  width: 100%;
+  cursor: pointer;
+  padding: 12px 12px;
+  border-radius: 5px;
+  box-sizing: border-box;
+  background-color: var(--secondary-color);
+
+  .title {
+    width: 100%;
+    cursor: text;
+    resize: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 5px;
+    border: 3px transparent solid;
+  }
+
+  .title::-webkit-scrollbar {
+    width: 0px;
+  }
+
+  .title:focus {
+    border: 3px #fff solid;
+  }
+}
+
+.task_card:hover {
+  background-color: var(--secondary-color-hover);
+}
+
+.task_card:active {
+  background-color: var(--secondary-color-active);
+}
