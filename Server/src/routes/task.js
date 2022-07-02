@@ -1,5 +1,4 @@
 const { Router } = require('express');
-const { Model } = require('mongoose');
 const model = require('../model/task.js');
 
 const router = Router();
@@ -28,7 +27,7 @@ router.get('/task', async (req, res)=>{
 router.delete('/task', async (req, res)=>{
     let query = req.query;
     try {
-        let taskDelete = await model.deleteMany(query);
+        let taskDelete = await model.deleteOne(query);
         res.json(taskDelete);
     } catch (error) {
         res.send(error);
