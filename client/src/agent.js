@@ -50,6 +50,8 @@ const Temp = {
     requests.postFormData("/temp/image", {image})
 };
 
+console.log("");
+
 export default {
   User,
   Task,
