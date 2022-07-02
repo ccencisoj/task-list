@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 /*
  * ATTENTION: An "eval-source-map" devtool has been used.
  * This devtool is neither made for production nor for readable output files.
@@ -7,16 +6,12 @@
  * or disable the default devtool with "devtool: false".
  * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
  */
-=======
-"use strict";
->>>>>>> 071a6edb5e6a2c5952b0c0d5b5117168a4bc2ad2
 (() => {
 var exports = {};
-exports.id = 660;
-exports.ids = [660];
+exports.id = "pages/_document";
+exports.ids = ["pages/_document"];
 exports.modules = {
 
-<<<<<<< HEAD
 /***/ "./node_modules/next/dist/client/head-manager.js":
 /*!*******************************************************!*\
   !*** ./node_modules/next/dist/client/head-manager.js ***!
@@ -68,7 +63,7 @@ eval("\nObject.defineProperty(exports, \"__esModule\", ({\n    value: true\n}));
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var next_document__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/document */ \"./node_modules/next/document.js\");\n/* harmony import */ var next_document__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_document__WEBPACK_IMPORTED_MODULE_1__);\n\n\nconst Document = ()=>{\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(next_document__WEBPACK_IMPORTED_MODULE_1__.Html, {\n        children: [\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(next_document__WEBPACK_IMPORTED_MODULE_1__.Head, {}, void 0, false, {\n                fileName: \"C:\\\\Users\\\\cristian\\\\Desktop\\\\Code\\\\Web\\\\Projects\\\\task-list\\\\client\\\\src\\\\pages\\\\_document.js\",\n                lineNumber: 6,\n                columnNumber: 7\n            }, undefined),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"body\", {\n                children: [\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(next_document__WEBPACK_IMPORTED_MODULE_1__.Main, {}, void 0, false, {\n                        fileName: \"C:\\\\Users\\\\cristian\\\\Desktop\\\\Code\\\\Web\\\\Projects\\\\task-list\\\\client\\\\src\\\\pages\\\\_document.js\",\n                        lineNumber: 8,\n                        columnNumber: 9\n                    }, undefined),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(next_document__WEBPACK_IMPORTED_MODULE_1__.NextScript, {}, void 0, false, {\n                        fileName: \"C:\\\\Users\\\\cristian\\\\Desktop\\\\Code\\\\Web\\\\Projects\\\\task-list\\\\client\\\\src\\\\pages\\\\_document.js\",\n                        lineNumber: 9,\n                        columnNumber: 9\n                    }, undefined)\n                ]\n            }, void 0, true, {\n                fileName: \"C:\\\\Users\\\\cristian\\\\Desktop\\\\Code\\\\Web\\\\Projects\\\\task-list\\\\client\\\\src\\\\pages\\\\_document.js\",\n                lineNumber: 7,\n                columnNumber: 7\n            }, undefined)\n        ]\n    }, void 0, true, {\n        fileName: \"C:\\\\Users\\\\cristian\\\\Desktop\\\\Code\\\\Web\\\\Projects\\\\task-list\\\\client\\\\src\\\\pages\\\\_document.js\",\n        lineNumber: 5,\n        columnNumber: 5\n    }, undefined);\n};\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Document);\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvcGFnZXMvX2RvY3VtZW50LmpzLmpzIiwibWFwcGluZ3MiOiI7Ozs7Ozs7O0FBQUE7QUFBNEQ7QUFFNUQsTUFBTUksUUFBUSxHQUFHLElBQUs7SUFDcEIscUJBQ0UsOERBQUNKLCtDQUFJOzswQkFDSCw4REFBQ0MsK0NBQUk7Ozs7eUJBQUU7MEJBQ1AsOERBQUNJLE1BQUk7O2tDQUNILDhEQUFDSCwrQ0FBSTs7OztpQ0FBRTtrQ0FDUCw4REFBQ0MscURBQVU7Ozs7aUNBQUU7Ozs7Ozt5QkFDUjs7Ozs7O2lCQUNGLENBQ1I7Q0FDRjtBQUVELGlFQUFlQyxRQUFRLEVBQUMiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9jbGllbnQvLi9zcmMvcGFnZXMvX2RvY3VtZW50LmpzP2M1MDYiXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgSHRtbCwgSGVhZCwgTWFpbiwgTmV4dFNjcmlwdCB9IGZyb20gJ25leHQvZG9jdW1lbnQnXHJcblxyXG5jb25zdCBEb2N1bWVudCA9ICgpPT4ge1xyXG4gIHJldHVybiAoXHJcbiAgICA8SHRtbD5cclxuICAgICAgPEhlYWQvPlxyXG4gICAgICA8Ym9keT5cclxuICAgICAgICA8TWFpbi8+XHJcbiAgICAgICAgPE5leHRTY3JpcHQvPlxyXG4gICAgICA8L2JvZHk+XHJcbiAgICA8L0h0bWw+XHJcbiAgKVxyXG59XHJcblxyXG5leHBvcnQgZGVmYXVsdCBEb2N1bWVudDsiXSwibmFtZXMiOlsiSHRtbCIsIkhlYWQiLCJNYWluIiwiTmV4dFNjcmlwdCIsIkRvY3VtZW50IiwiYm9keSJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./src/pages/_document.js\n");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var next_document__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/document */ \"./node_modules/next/document.js\");\n/* harmony import */ var next_document__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_document__WEBPACK_IMPORTED_MODULE_1__);\n\n\nconst Document = ()=>{\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(next_document__WEBPACK_IMPORTED_MODULE_1__.Html, {\n        children: [\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(next_document__WEBPACK_IMPORTED_MODULE_1__.Head, {}, void 0, false, {\n                fileName: \"/Users/juliangarcia/Documents/CRUDTask/client/src/pages/_document.js\",\n                lineNumber: 6,\n                columnNumber: 7\n            }, undefined),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"body\", {\n                children: [\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(next_document__WEBPACK_IMPORTED_MODULE_1__.Main, {}, void 0, false, {\n                        fileName: \"/Users/juliangarcia/Documents/CRUDTask/client/src/pages/_document.js\",\n                        lineNumber: 8,\n                        columnNumber: 9\n                    }, undefined),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(next_document__WEBPACK_IMPORTED_MODULE_1__.NextScript, {}, void 0, false, {\n                        fileName: \"/Users/juliangarcia/Documents/CRUDTask/client/src/pages/_document.js\",\n                        lineNumber: 9,\n                        columnNumber: 9\n                    }, undefined)\n                ]\n            }, void 0, true, {\n                fileName: \"/Users/juliangarcia/Documents/CRUDTask/client/src/pages/_document.js\",\n                lineNumber: 7,\n                columnNumber: 7\n            }, undefined)\n        ]\n    }, void 0, true, {\n        fileName: \"/Users/juliangarcia/Documents/CRUDTask/client/src/pages/_document.js\",\n        lineNumber: 5,\n        columnNumber: 5\n    }, undefined);\n};\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Document);\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvcGFnZXMvX2RvY3VtZW50LmpzLmpzIiwibWFwcGluZ3MiOiI7Ozs7Ozs7O0FBQUE7QUFBNEQ7QUFFNUQsTUFBTUksUUFBUSxHQUFHLElBQUs7SUFDcEIscUJBQ0UsOERBQUNKLCtDQUFJOzswQkFDSCw4REFBQ0MsK0NBQUk7Ozs7eUJBQUU7MEJBQ1AsOERBQUNJLE1BQUk7O2tDQUNILDhEQUFDSCwrQ0FBSTs7OztpQ0FBRTtrQ0FDUCw4REFBQ0MscURBQVU7Ozs7aUNBQUU7Ozs7Ozt5QkFDUjs7Ozs7O2lCQUNGLENBQ1I7Q0FDRjtBQUVELGlFQUFlQyxRQUFRLEVBQUMiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9jbGllbnQvLi9zcmMvcGFnZXMvX2RvY3VtZW50LmpzP2M1MDYiXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgSHRtbCwgSGVhZCwgTWFpbiwgTmV4dFNjcmlwdCB9IGZyb20gJ25leHQvZG9jdW1lbnQnXG5cbmNvbnN0IERvY3VtZW50ID0gKCk9PiB7XG4gIHJldHVybiAoXG4gICAgPEh0bWw+XG4gICAgICA8SGVhZC8+XG4gICAgICA8Ym9keT5cbiAgICAgICAgPE1haW4vPlxuICAgICAgICA8TmV4dFNjcmlwdC8+XG4gICAgICA8L2JvZHk+XG4gICAgPC9IdG1sPlxuICApXG59XG5cbmV4cG9ydCBkZWZhdWx0IERvY3VtZW50OyJdLCJuYW1lcyI6WyJIdG1sIiwiSGVhZCIsIk1haW4iLCJOZXh0U2NyaXB0IiwiRG9jdW1lbnQiLCJib2R5Il0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./src/pages/_document.js\n");
 
 /***/ }),
 
@@ -108,9 +103,6 @@ eval("module.exports = __webpack_require__(/*! ./dist/pages/_document */ \"./nod
 /*!*****************************************************!*\
   !*** external "next/dist/server/get-page-files.js" ***!
   \*****************************************************/
-=======
-/***/ 4140:
->>>>>>> 071a6edb5e6a2c5952b0c0d5b5117168a4bc2ad2
 /***/ ((module) => {
 
 "use strict";
@@ -118,7 +110,10 @@ module.exports = require("next/dist/server/get-page-files.js");
 
 /***/ }),
 
-/***/ 9716:
+/***/ "../server/htmlescape":
+/*!*************************************************!*\
+  !*** external "next/dist/server/htmlescape.js" ***!
+  \*************************************************/
 /***/ ((module) => {
 
 "use strict";
@@ -126,7 +121,10 @@ module.exports = require("next/dist/server/htmlescape.js");
 
 /***/ }),
 
-/***/ 6368:
+/***/ "../server/utils":
+/*!********************************************!*\
+  !*** external "next/dist/server/utils.js" ***!
+  \********************************************/
 /***/ ((module) => {
 
 "use strict";
@@ -134,7 +132,10 @@ module.exports = require("next/dist/server/utils.js");
 
 /***/ }),
 
-/***/ 6724:
+/***/ "../shared/lib/constants":
+/*!****************************************************!*\
+  !*** external "next/dist/shared/lib/constants.js" ***!
+  \****************************************************/
 /***/ ((module) => {
 
 "use strict";
@@ -142,7 +143,10 @@ module.exports = require("next/dist/shared/lib/constants.js");
 
 /***/ }),
 
-/***/ 2796:
+/***/ "../shared/lib/head-manager-context":
+/*!***************************************************************!*\
+  !*** external "next/dist/shared/lib/head-manager-context.js" ***!
+  \***************************************************************/
 /***/ ((module) => {
 
 "use strict";
@@ -150,7 +154,10 @@ module.exports = require("next/dist/shared/lib/head-manager-context.js");
 
 /***/ }),
 
-/***/ 8743:
+/***/ "../shared/lib/html-context":
+/*!*******************************************************!*\
+  !*** external "next/dist/shared/lib/html-context.js" ***!
+  \*******************************************************/
 /***/ ((module) => {
 
 "use strict";
@@ -158,7 +165,10 @@ module.exports = require("next/dist/shared/lib/html-context.js");
 
 /***/ }),
 
-/***/ 8524:
+/***/ "../shared/lib/is-plain-object":
+/*!**********************************************************!*\
+  !*** external "next/dist/shared/lib/is-plain-object.js" ***!
+  \**********************************************************/
 /***/ ((module) => {
 
 "use strict";
@@ -166,7 +176,10 @@ module.exports = require("next/dist/shared/lib/is-plain-object.js");
 
 /***/ }),
 
-/***/ 6689:
+/***/ "react":
+/*!************************!*\
+  !*** external "react" ***!
+  \************************/
 /***/ ((module) => {
 
 "use strict";
@@ -192,11 +205,7 @@ module.exports = require("react/jsx-dev-runtime");
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-<<<<<<< HEAD
 var __webpack_exports__ = (__webpack_exec__("./src/pages/_document.js"));
-=======
-var __webpack_exports__ = __webpack_require__.X(0, [105], () => (__webpack_exec__(3105)));
->>>>>>> 071a6edb5e6a2c5952b0c0d5b5117168a4bc2ad2
 module.exports = __webpack_exports__;
 
 })();
