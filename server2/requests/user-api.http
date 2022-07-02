@@ -1,0 +1,24 @@
+### Crear cuenta
+POST http://192.168.100.6:4000/user/signUp
+Content-Type: application/json
+
+{
+  "username": "ccencisoj",
+  "email": "bizapro123@gmail.com",
+  "password": "12345"
+}
+
+### Iniciar session
+POST http://192.168.100.6:4000/user/signIn
+Content-Type: application/json
+
+{
+  "email": "bizapro123@gmail.com",
+  "password": "12345"
+}
+
+### Obtener usuario actual
+GET http://192.168.100.6:4000/user/current
+
+### Terminar session
+GET http://192.168.100.6:4000/user/signOut

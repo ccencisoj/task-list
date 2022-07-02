@@ -7,7 +7,7 @@ let task = new Schema({
     description: String,
     usuario: String,
     date: {type: Date, default: ()=>Date.now(), required: true},
-    status: Boolean
+    status: String
 });
 
 task.set('toJSON', {

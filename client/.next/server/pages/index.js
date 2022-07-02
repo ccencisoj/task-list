@@ -1,23 +1,56 @@
-/*
- * ATTENTION: An "eval-source-map" devtool has been used.
- * This devtool is neither made for production nor for readable output files.
- * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
- * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
- * or disable the default devtool with "devtool: false".
- * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
- */
+"use strict";
 (() => {
 var exports = {};
-exports.id = "pages/index";
-exports.ids = ["pages/index"];
+exports.id = 405;
+exports.ids = [405];
 exports.modules = {
 
-/***/ "./src/components/Button/Button.module.scss":
-/*!**************************************************!*\
-  !*** ./src/components/Button/Button.module.scss ***!
-  \**************************************************/
+/***/ 3486:
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__),
+/* harmony export */   "getServerSideProps": () => (/* binding */ getServerSideProps)
+/* harmony export */ });
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(997);
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(6689);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var src_components_Page_Page__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(4472);
+/* harmony import */ var lib_server_side_sign_out__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(1867);
+/* harmony import */ var src_components_Form_SignInForm__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(4433);
+/* harmony import */ var src_constants_color__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(4859);
+/* harmony import */ var src_components_CenteredColumn_CenteredColumn__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(7795);
+
+
+
+
+
+
+
+const Index = ()=>{
+    const style = {
+        paddingBottom: "10vh",
+        backgroundColor: src_constants_color__WEBPACK_IMPORTED_MODULE_6__/* .PRIMARY_BACKGROUND */ .V
+    };
+    return /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(src_components_Page_Page__WEBPACK_IMPORTED_MODULE_2__/* ["default"] */ .Z, {
+        style: style,
+        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(src_components_CenteredColumn_CenteredColumn__WEBPACK_IMPORTED_MODULE_5__/* ["default"] */ .Z, {
+            children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(src_components_Form_SignInForm__WEBPACK_IMPORTED_MODULE_4__/* ["default"] */ .Z, {})
+        })
+    });
+};
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Index);
+const getServerSideProps = lib_server_side_sign_out__WEBPACK_IMPORTED_MODULE_3__/* ["default"] */ .Z;
+
+
+/***/ }),
+
+/***/ 2167:
 /***/ ((module) => {
 
+<<<<<<< HEAD
 eval("// Exports\nmodule.exports = {\n\t\"button\": \"Button_button__PjVhE\",\n\t\"loading\": \"Button_loading__sDdK_\",\n\t\"label\": \"Button_label__vFl5U\",\n\t\"icon\": \"Button_icon__DJGKY\",\n\t\"primary\": \"Button_primary___XGO6\",\n\t\"icon_button\": \"Button_icon_button__j0_aU\",\n\t\"small_icon_button\": \"Button_small_icon_button__qsKYq\",\n\t\"expand\": \"Button_expand__z63jV\",\n\t\"flex\": \"Button_flex__fos1a\",\n\t\"transparent_theme\": \"Button_transparent_theme__yJJQA\",\n\t\"red_theme\": \"Button_red_theme__wOBcL\",\n\t\"small\": \"Button_small__XCqD1\"\n};\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvY29tcG9uZW50cy9CdXR0b24vQnV0dG9uLm1vZHVsZS5zY3NzLmpzIiwibWFwcGluZ3MiOiJBQUFBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQSIsInNvdXJjZXMiOlsid2VicGFjazovL2NsaWVudC8uL3NyYy9jb21wb25lbnRzL0J1dHRvbi9CdXR0b24ubW9kdWxlLnNjc3M/NDkxNiJdLCJzb3VyY2VzQ29udGVudCI6WyIvLyBFeHBvcnRzXG5tb2R1bGUuZXhwb3J0cyA9IHtcblx0XCJidXR0b25cIjogXCJCdXR0b25fYnV0dG9uX19QalZoRVwiLFxuXHRcImxvYWRpbmdcIjogXCJCdXR0b25fbG9hZGluZ19fc0RkS19cIixcblx0XCJsYWJlbFwiOiBcIkJ1dHRvbl9sYWJlbF9fdkZsNVVcIixcblx0XCJpY29uXCI6IFwiQnV0dG9uX2ljb25fX0RKR0tZXCIsXG5cdFwicHJpbWFyeVwiOiBcIkJ1dHRvbl9wcmltYXJ5X19fWEdPNlwiLFxuXHRcImljb25fYnV0dG9uXCI6IFwiQnV0dG9uX2ljb25fYnV0dG9uX19qMF9hVVwiLFxuXHRcInNtYWxsX2ljb25fYnV0dG9uXCI6IFwiQnV0dG9uX3NtYWxsX2ljb25fYnV0dG9uX19xc0tZcVwiLFxuXHRcImV4cGFuZFwiOiBcIkJ1dHRvbl9leHBhbmRfX3o2M2pWXCIsXG5cdFwiZmxleFwiOiBcIkJ1dHRvbl9mbGV4X19mb3MxYVwiLFxuXHRcInRyYW5zcGFyZW50X3RoZW1lXCI6IFwiQnV0dG9uX3RyYW5zcGFyZW50X3RoZW1lX195SkpRQVwiLFxuXHRcInJlZF90aGVtZVwiOiBcIkJ1dHRvbl9yZWRfdGhlbWVfX3dPQmNMXCIsXG5cdFwic21hbGxcIjogXCJCdXR0b25fc21hbGxfX1hDcUQxXCJcbn07XG4iXSwibmFtZXMiOltdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./src/components/Button/Button.module.scss\n");
 
 /***/ }),
@@ -306,54 +339,41 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((module) => {
 
 "use strict";
+=======
+>>>>>>> 071a6edb5e6a2c5952b0c0d5b5117168a4bc2ad2
 module.exports = require("axios");
 
 /***/ }),
 
-/***/ "clsx":
-/*!***********************!*\
-  !*** external "clsx" ***!
-  \***********************/
+/***/ 8103:
 /***/ ((module) => {
 
-"use strict";
 module.exports = require("clsx");
 
 /***/ }),
 
-/***/ "formik":
-/*!*************************!*\
-  !*** external "formik" ***!
-  \*************************/
+/***/ 2296:
 /***/ ((module) => {
 
-"use strict";
 module.exports = require("formik");
 
 /***/ }),
 
-/***/ "next/router":
-/*!******************************!*\
-  !*** external "next/router" ***!
-  \******************************/
+/***/ 1853:
 /***/ ((module) => {
 
-"use strict";
 module.exports = require("next/router");
 
 /***/ }),
 
-/***/ "react":
-/*!************************!*\
-  !*** external "react" ***!
-  \************************/
+/***/ 6689:
 /***/ ((module) => {
 
-"use strict";
 module.exports = require("react");
 
 /***/ }),
 
+<<<<<<< HEAD
 /***/ "react-feather":
 /*!********************************!*\
   !*** external "react-feather" ***!
@@ -369,20 +389,18 @@ module.exports = require("react-feather");
 /*!****************************************!*\
   !*** external "react/jsx-dev-runtime" ***!
   \****************************************/
+=======
+/***/ 997:
+>>>>>>> 071a6edb5e6a2c5952b0c0d5b5117168a4bc2ad2
 /***/ ((module) => {
 
-"use strict";
-module.exports = require("react/jsx-dev-runtime");
+module.exports = require("react/jsx-runtime");
 
 /***/ }),
 
-/***/ "yup":
-/*!**********************!*\
-  !*** external "yup" ***!
-  \**********************/
+/***/ 5609:
 /***/ ((module) => {
 
-"use strict";
 module.exports = require("yup");
 
 /***/ })
@@ -394,7 +412,7 @@ module.exports = require("yup");
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = (__webpack_exec__("./src/pages/index.js"));
+var __webpack_exports__ = __webpack_require__.X(0, [14,22,685], () => (__webpack_exec__(3486)));
 module.exports = __webpack_exports__;
 
 })();

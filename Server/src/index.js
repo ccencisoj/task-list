@@ -2,7 +2,8 @@ console.log(process.env.NAME);
 
 const express = require('express');
 const logger = require('morgan');
-const indexRouter = require('./routes/index');
+const taskRouter = require('./routes/task');
+const userRouter = require('./routes/user');
 const dbConection = require('./libs/dbConection');
 const port = process.env.PORT || 4000;
 
@@ -12,11 +13,12 @@ let db = dbConection()
 
 //Middleware 
 app.use(express.json());
-app.use(logger('tiny'))
+app.use(logger('dev'))
 app.use(express.urlencoded({extended: false}));
 
 //routers 
-app.use(indexRouter);
+app.use(taskRouter);
+app.use(userRouter);
 
 //settings server
 app.listen(port, ()=> {

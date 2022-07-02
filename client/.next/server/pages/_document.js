@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*
  * ATTENTION: An "eval-source-map" devtool has been used.
  * This devtool is neither made for production nor for readable output files.
@@ -6,12 +7,16 @@
  * or disable the default devtool with "devtool: false".
  * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
  */
+=======
+"use strict";
+>>>>>>> 071a6edb5e6a2c5952b0c0d5b5117168a4bc2ad2
 (() => {
 var exports = {};
-exports.id = "pages/_document";
-exports.ids = ["pages/_document"];
+exports.id = 660;
+exports.ids = [660];
 exports.modules = {
 
+<<<<<<< HEAD
 /***/ "./node_modules/next/dist/client/head-manager.js":
 /*!*******************************************************!*\
   !*** ./node_modules/next/dist/client/head-manager.js ***!
@@ -103,6 +108,9 @@ eval("module.exports = __webpack_require__(/*! ./dist/pages/_document */ \"./nod
 /*!*****************************************************!*\
   !*** external "next/dist/server/get-page-files.js" ***!
   \*****************************************************/
+=======
+/***/ 4140:
+>>>>>>> 071a6edb5e6a2c5952b0c0d5b5117168a4bc2ad2
 /***/ ((module) => {
 
 "use strict";
@@ -110,10 +118,7 @@ module.exports = require("next/dist/server/get-page-files.js");
 
 /***/ }),
 
-/***/ "../server/htmlescape":
-/*!*************************************************!*\
-  !*** external "next/dist/server/htmlescape.js" ***!
-  \*************************************************/
+/***/ 9716:
 /***/ ((module) => {
 
 "use strict";
@@ -121,10 +126,7 @@ module.exports = require("next/dist/server/htmlescape.js");
 
 /***/ }),
 
-/***/ "../server/utils":
-/*!********************************************!*\
-  !*** external "next/dist/server/utils.js" ***!
-  \********************************************/
+/***/ 6368:
 /***/ ((module) => {
 
 "use strict";
@@ -132,10 +134,7 @@ module.exports = require("next/dist/server/utils.js");
 
 /***/ }),
 
-/***/ "../shared/lib/constants":
-/*!****************************************************!*\
-  !*** external "next/dist/shared/lib/constants.js" ***!
-  \****************************************************/
+/***/ 6724:
 /***/ ((module) => {
 
 "use strict";
@@ -143,10 +142,7 @@ module.exports = require("next/dist/shared/lib/constants.js");
 
 /***/ }),
 
-/***/ "../shared/lib/head-manager-context":
-/*!***************************************************************!*\
-  !*** external "next/dist/shared/lib/head-manager-context.js" ***!
-  \***************************************************************/
+/***/ 2796:
 /***/ ((module) => {
 
 "use strict";
@@ -154,10 +150,7 @@ module.exports = require("next/dist/shared/lib/head-manager-context.js");
 
 /***/ }),
 
-/***/ "../shared/lib/html-context":
-/*!*******************************************************!*\
-  !*** external "next/dist/shared/lib/html-context.js" ***!
-  \*******************************************************/
+/***/ 8743:
 /***/ ((module) => {
 
 "use strict";
@@ -165,10 +158,7 @@ module.exports = require("next/dist/shared/lib/html-context.js");
 
 /***/ }),
 
-/***/ "../shared/lib/is-plain-object":
-/*!**********************************************************!*\
-  !*** external "next/dist/shared/lib/is-plain-object.js" ***!
-  \**********************************************************/
+/***/ 8524:
 /***/ ((module) => {
 
 "use strict";
@@ -176,10 +166,7 @@ module.exports = require("next/dist/shared/lib/is-plain-object.js");
 
 /***/ }),
 
-/***/ "react":
-/*!************************!*\
-  !*** external "react" ***!
-  \************************/
+/***/ 6689:
 /***/ ((module) => {
 
 "use strict";
@@ -205,7 +192,11 @@ module.exports = require("react/jsx-dev-runtime");
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
+<<<<<<< HEAD
 var __webpack_exports__ = (__webpack_exec__("./src/pages/_document.js"));
+=======
+var __webpack_exports__ = __webpack_require__.X(0, [105], () => (__webpack_exec__(3105)));
+>>>>>>> 071a6edb5e6a2c5952b0c0d5b5117168a4bc2ad2
 module.exports = __webpack_exports__;
 
 })();

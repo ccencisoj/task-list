@@ -1,37 +1,44 @@
-/*
- * ATTENTION: An "eval-source-map" devtool has been used.
- * This devtool is neither made for production nor for readable output files.
- * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
- * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
- * or disable the default devtool with "devtool: false".
- * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
- */
 (() => {
 var exports = {};
-exports.id = "pages/signUp";
-exports.ids = ["pages/signUp"];
+exports.id = 438;
+exports.ids = [438];
 exports.modules = {
 
-/***/ "./src/components/Button/Button.module.scss":
-/*!**************************************************!*\
-  !*** ./src/components/Button/Button.module.scss ***!
-  \**************************************************/
+/***/ 4708:
 /***/ ((module) => {
 
+<<<<<<< HEAD
 eval("// Exports\nmodule.exports = {\n\t\"button\": \"Button_button__PjVhE\",\n\t\"loading\": \"Button_loading__sDdK_\",\n\t\"label\": \"Button_label__vFl5U\",\n\t\"icon\": \"Button_icon__DJGKY\",\n\t\"primary\": \"Button_primary___XGO6\",\n\t\"icon_button\": \"Button_icon_button__j0_aU\",\n\t\"small_icon_button\": \"Button_small_icon_button__qsKYq\",\n\t\"expand\": \"Button_expand__z63jV\",\n\t\"flex\": \"Button_flex__fos1a\",\n\t\"transparent_theme\": \"Button_transparent_theme__yJJQA\",\n\t\"red_theme\": \"Button_red_theme__wOBcL\",\n\t\"small\": \"Button_small__XCqD1\"\n};\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvY29tcG9uZW50cy9CdXR0b24vQnV0dG9uLm1vZHVsZS5zY3NzLmpzIiwibWFwcGluZ3MiOiJBQUFBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQSIsInNvdXJjZXMiOlsid2VicGFjazovL2NsaWVudC8uL3NyYy9jb21wb25lbnRzL0J1dHRvbi9CdXR0b24ubW9kdWxlLnNjc3M/NDkxNiJdLCJzb3VyY2VzQ29udGVudCI6WyIvLyBFeHBvcnRzXG5tb2R1bGUuZXhwb3J0cyA9IHtcblx0XCJidXR0b25cIjogXCJCdXR0b25fYnV0dG9uX19QalZoRVwiLFxuXHRcImxvYWRpbmdcIjogXCJCdXR0b25fbG9hZGluZ19fc0RkS19cIixcblx0XCJsYWJlbFwiOiBcIkJ1dHRvbl9sYWJlbF9fdkZsNVVcIixcblx0XCJpY29uXCI6IFwiQnV0dG9uX2ljb25fX0RKR0tZXCIsXG5cdFwicHJpbWFyeVwiOiBcIkJ1dHRvbl9wcmltYXJ5X19fWEdPNlwiLFxuXHRcImljb25fYnV0dG9uXCI6IFwiQnV0dG9uX2ljb25fYnV0dG9uX19qMF9hVVwiLFxuXHRcInNtYWxsX2ljb25fYnV0dG9uXCI6IFwiQnV0dG9uX3NtYWxsX2ljb25fYnV0dG9uX19xc0tZcVwiLFxuXHRcImV4cGFuZFwiOiBcIkJ1dHRvbl9leHBhbmRfX3o2M2pWXCIsXG5cdFwiZmxleFwiOiBcIkJ1dHRvbl9mbGV4X19mb3MxYVwiLFxuXHRcInRyYW5zcGFyZW50X3RoZW1lXCI6IFwiQnV0dG9uX3RyYW5zcGFyZW50X3RoZW1lX195SkpRQVwiLFxuXHRcInJlZF90aGVtZVwiOiBcIkJ1dHRvbl9yZWRfdGhlbWVfX3dPQmNMXCIsXG5cdFwic21hbGxcIjogXCJCdXR0b25fc21hbGxfX1hDcUQxXCJcbn07XG4iXSwibmFtZXMiOltdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./src/components/Button/Button.module.scss\n");
+=======
+// Exports
+module.exports = {
+	"sign_in_form": "SignUpForm_sign_in_form__lUhiI",
+	"header": "SignUpForm_header__MVvnU",
+	"title": "SignUpForm_title__gXx_F",
+	"main": "SignUpForm_main__9twj9",
+	"footer": "SignUpForm_footer__vdEUB",
+	"error": "SignUpForm_error__6lVEC"
+};
+
+>>>>>>> 071a6edb5e6a2c5952b0c0d5b5117168a4bc2ad2
 
 /***/ }),
 
-/***/ "./src/components/CenteredColumn/CenteredColumn.module.scss":
-/*!******************************************************************!*\
-  !*** ./src/components/CenteredColumn/CenteredColumn.module.scss ***!
-  \******************************************************************/
+/***/ 2144:
 /***/ ((module) => {
 
-eval("// Exports\nmodule.exports = {\n\t\"centered_column\": \"CenteredColumn_centered_column__XcUPb\"\n};\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvY29tcG9uZW50cy9DZW50ZXJlZENvbHVtbi9DZW50ZXJlZENvbHVtbi5tb2R1bGUuc2Nzcy5qcyIsIm1hcHBpbmdzIjoiQUFBQTtBQUNBO0FBQ0E7QUFDQSIsInNvdXJjZXMiOlsid2VicGFjazovL2NsaWVudC8uL3NyYy9jb21wb25lbnRzL0NlbnRlcmVkQ29sdW1uL0NlbnRlcmVkQ29sdW1uLm1vZHVsZS5zY3NzPzcxOTciXSwic291cmNlc0NvbnRlbnQiOlsiLy8gRXhwb3J0c1xubW9kdWxlLmV4cG9ydHMgPSB7XG5cdFwiY2VudGVyZWRfY29sdW1uXCI6IFwiQ2VudGVyZWRDb2x1bW5fY2VudGVyZWRfY29sdW1uX19YY1VQYlwiXG59O1xuIl0sIm5hbWVzIjpbXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./src/components/CenteredColumn/CenteredColumn.module.scss\n");
+// Exports
+module.exports = {
+	"image_selector": "ImageSelector1_image_selector__xybWu",
+	"image": "ImageSelector1_image__5Fr8w",
+	"label": "ImageSelector1_label__mIjF5",
+	"icon": "ImageSelector1_icon__9jgCL"
+};
+
 
 /***/ }),
 
+<<<<<<< HEAD
 /***/ "./src/components/Container/Container.module.scss":
 /*!********************************************************!*\
   !*** ./src/components/Container/Container.module.scss ***!
@@ -137,13 +144,39 @@ eval("\nconst { default: axios  } = __webpack_require__(/*! axios */ \"axios\");
 /*!*************************************!*\
   !*** ./lib/server-side-sign-out.js ***!
   \*************************************/
+=======
+/***/ 1867:
+>>>>>>> 071a6edb5e6a2c5952b0c0d5b5117168a4bc2ad2
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var src_agent__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! src/agent */ \"./src/agent.js\");\n\nconst serverSideSignOut = async (ctx)=>{\n    try {\n        await src_agent__WEBPACK_IMPORTED_MODULE_0__[\"default\"].User.signOut({\n            headers: {\n                \"Cookie\": ctx.req.headers.cookie\n            }\n        });\n        return {\n            props: {}\n        };\n    } catch (error) {\n        return {\n            props: {}\n        };\n    }\n};\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (serverSideSignOut);\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9saWIvc2VydmVyLXNpZGUtc2lnbi1vdXQuanMuanMiLCJtYXBwaW5ncyI6Ijs7Ozs7QUFBOEI7QUFFOUIsTUFBTUMsaUJBQWlCLEdBQUcsT0FBT0MsR0FBRyxHQUFJO0lBQ3RDLElBQUk7UUFDRixNQUFNRiw4REFBa0IsQ0FBQztZQUN2QkssT0FBTyxFQUFFO2dCQUFDLFFBQVEsRUFBRUgsR0FBRyxDQUFDSSxHQUFHLENBQUNELE9BQU8sQ0FBQ0UsTUFBTTthQUFDO1NBQzVDLENBQUMsQ0FBQztRQUNILE9BQU87WUFBQ0MsS0FBSyxFQUFFLEVBQUU7U0FBQyxDQUFDO0tBRXBCLFFBQU1DLEtBQUssRUFBRTtRQUNaLE9BQU87WUFBQ0QsS0FBSyxFQUFFLEVBQUU7U0FBQyxDQUFDO0tBQ3BCO0NBQ0Y7QUFFRCxpRUFBZVAsaUJBQWlCLEVBQUMiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9jbGllbnQvLi9saWIvc2VydmVyLXNpZGUtc2lnbi1vdXQuanM/OWJiOSJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgYWdlbnQgZnJvbSAnc3JjL2FnZW50JztcclxuXHJcbmNvbnN0IHNlcnZlclNpZGVTaWduT3V0ID0gYXN5bmMgKGN0eCk9PiB7XHJcbiAgdHJ5IHtcclxuICAgIGF3YWl0IGFnZW50LlVzZXIuc2lnbk91dCh7XHJcbiAgICAgIGhlYWRlcnM6IHtcIkNvb2tpZVwiOiBjdHgucmVxLmhlYWRlcnMuY29va2llfVxyXG4gICAgfSk7XHJcbiAgICByZXR1cm4ge3Byb3BzOiB7fX07XHJcblxyXG4gIH1jYXRjaChlcnJvcikge1xyXG4gICAgcmV0dXJuIHtwcm9wczoge319O1xyXG4gIH1cclxufVxyXG5cclxuZXhwb3J0IGRlZmF1bHQgc2VydmVyU2lkZVNpZ25PdXQ7Il0sIm5hbWVzIjpbImFnZW50Iiwic2VydmVyU2lkZVNpZ25PdXQiLCJjdHgiLCJVc2VyIiwic2lnbk91dCIsImhlYWRlcnMiLCJyZXEiLCJjb29raWUiLCJwcm9wcyIsImVycm9yIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./lib/server-side-sign-out.js\n");
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "Z": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var src_agent__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(9106);
+
+const serverSideSignOut = async (ctx)=>{
+    try {
+        await src_agent__WEBPACK_IMPORTED_MODULE_0__/* ["default"].User.signOut */ .Z.User.signOut({
+            headers: {
+                "Cookie": ctx.req.headers.cookie
+            }
+        });
+        return {
+            props: {}
+        };
+    } catch (error) {
+        return {
+            props: {}
+        };
+    }
+};
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (serverSideSignOut);
+
 
 /***/ }),
 
+<<<<<<< HEAD
 /***/ "./src/agent.js":
 /*!**********************!*\
   !*** ./src/agent.js ***!
@@ -207,16 +240,159 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 
 "use strict";
 eval("__webpack_require__.a(module, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {\n__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ \"react\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var yup__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! yup */ \"yup\");\n/* harmony import */ var yup__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(yup__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var formik__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! formik */ \"formik\");\n/* harmony import */ var formik__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(formik__WEBPACK_IMPORTED_MODULE_3__);\n/* harmony import */ var src_agent__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! src/agent */ \"./src/agent.js\");\n/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! next/router */ \"next/router\");\n/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(next_router__WEBPACK_IMPORTED_MODULE_5__);\n/* harmony import */ var _SignUpForm_module_scss__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./SignUpForm.module.scss */ \"./src/components/Form/SignUpForm.module.scss\");\n/* harmony import */ var _SignUpForm_module_scss__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(_SignUpForm_module_scss__WEBPACK_IMPORTED_MODULE_10__);\n/* harmony import */ var src_components_Field_Field__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! src/components/Field/Field */ \"./src/components/Field/Field.js\");\n/* harmony import */ var src_components_Button_Button__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! src/components/Button/Button */ \"./src/components/Button/Button.js\");\n/* harmony import */ var src_components_Container_Container__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! src/components/Container/Container */ \"./src/components/Container/Container.js\");\n/* harmony import */ var src_components_ImageSelector_ImageSelector1__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! src/components/ImageSelector/ImageSelector1 */ \"./src/components/ImageSelector/ImageSelector1.js\");\nvar __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([src_components_ImageSelector_ImageSelector1__WEBPACK_IMPORTED_MODULE_9__]);\nsrc_components_ImageSelector_ImageSelector1__WEBPACK_IMPORTED_MODULE_9__ = (__webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__)[0];\n\n\n\n\n\n\n\n\n\n\n\nconst SignUpSchema = yup__WEBPACK_IMPORTED_MODULE_2__.object().shape({\n    username: yup__WEBPACK_IMPORTED_MODULE_2__.string().required(\"Este campo es requerido\"),\n    email: yup__WEBPACK_IMPORTED_MODULE_2__.string().required(\"Este campo es requerido\"),\n    password: yup__WEBPACK_IMPORTED_MODULE_2__.string().required(\"Este campo es requerido\")\n});\nconst SignUpForm = ()=>{\n    const [error, setError] = react__WEBPACK_IMPORTED_MODULE_1___default().useState(\"\");\n    const [image, setImage] = react__WEBPACK_IMPORTED_MODULE_1___default().useState(\"\");\n    const router = (0,next_router__WEBPACK_IMPORTED_MODULE_5__.useRouter)();\n    const handleChangeImage = (image)=>{\n        src_agent__WEBPACK_IMPORTED_MODULE_4__[\"default\"].Temp.image(image).then((response)=>{\n            setImage(response.data.image);\n        });\n    };\n    const handleSubmit = async ({ username , email , password  })=>{\n        src_agent__WEBPACK_IMPORTED_MODULE_4__[\"default\"].User.signUp({\n            image,\n            username,\n            email,\n            password\n        }).then((response)=>{\n            console.log(response);\n            router.push(\"/taskList\");\n        }).catch((error)=>{\n            setError(error?.response?.data?.message);\n        });\n    };\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(formik__WEBPACK_IMPORTED_MODULE_3__.Formik, {\n        initialValues: {\n            username: \"\",\n            email: \"\",\n            password: \"\"\n        },\n        validationSchema: SignUpSchema,\n        onSubmit: handleSubmit,\n        children: ({ errors , values , touched , handleSubmit , handleBlur , handleChange , isSubmitting  })=>/*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"form\", {\n                className: (_SignUpForm_module_scss__WEBPACK_IMPORTED_MODULE_10___default().sign_in_form),\n                onSubmit: handleSubmit,\n                children: [\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                        className: (_SignUpForm_module_scss__WEBPACK_IMPORTED_MODULE_10___default().header),\n                        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"p\", {\n                            className: (_SignUpForm_module_scss__WEBPACK_IMPORTED_MODULE_10___default().title),\n                            children: \"Crear cuenta\"\n                        }, void 0, false, {\n                            fileName: \"C:\\\\Users\\\\cristian\\\\Desktop\\\\Code\\\\Web\\\\Projects\\\\task-list\\\\client\\\\src\\\\components\\\\Form\\\\SignUpForm.js\",\n                            lineNumber: 67,\n                            columnNumber: 13\n                        }, undefined)\n                    }, void 0, false, {\n                        fileName: \"C:\\\\Users\\\\cristian\\\\Desktop\\\\Code\\\\Web\\\\Projects\\\\task-list\\\\client\\\\src\\\\components\\\\Form\\\\SignUpForm.js\",\n                        lineNumber: 66,\n                        columnNumber: 11\n                    }, undefined),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                        className: (_SignUpForm_module_scss__WEBPACK_IMPORTED_MODULE_10___default().main),\n                        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(src_components_Container_Container__WEBPACK_IMPORTED_MODULE_8__[\"default\"], {\n                            columnDirection: true,\n                            mediumSeparation: true,\n                            children: [\n                                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(src_components_ImageSelector_ImageSelector1__WEBPACK_IMPORTED_MODULE_9__[\"default\"], {\n                                    onChange: handleChangeImage\n                                }, void 0, false, {\n                                    fileName: \"C:\\\\Users\\\\cristian\\\\Desktop\\\\Code\\\\Web\\\\Projects\\\\task-list\\\\client\\\\src\\\\components\\\\Form\\\\SignUpForm.js\",\n                                    lineNumber: 71,\n                                    columnNumber: 15\n                                }, undefined),\n                                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(src_components_Field_Field__WEBPACK_IMPORTED_MODULE_6__[\"default\"], {\n                                    type: \"text\",\n                                    name: \"username\",\n                                    placeholder: \"Nombre de usuario\",\n                                    value: values.username,\n                                    error: touched.username ? errors.username : null,\n                                    onBlur: handleBlur,\n                                    onChange: handleChange\n                                }, void 0, false, {\n                                    fileName: \"C:\\\\Users\\\\cristian\\\\Desktop\\\\Code\\\\Web\\\\Projects\\\\task-list\\\\client\\\\src\\\\components\\\\Form\\\\SignUpForm.js\",\n                                    lineNumber: 72,\n                                    columnNumber: 15\n                                }, undefined),\n                                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(src_components_Field_Field__WEBPACK_IMPORTED_MODULE_6__[\"default\"], {\n                                    type: \"text\",\n                                    name: \"email\",\n                                    placeholder: \"Correo\",\n                                    value: values.email,\n                                    error: touched.email ? errors.email : null,\n                                    onBlur: handleBlur,\n                                    onChange: handleChange\n                                }, void 0, false, {\n                                    fileName: \"C:\\\\Users\\\\cristian\\\\Desktop\\\\Code\\\\Web\\\\Projects\\\\task-list\\\\client\\\\src\\\\components\\\\Form\\\\SignUpForm.js\",\n                                    lineNumber: 80,\n                                    columnNumber: 15\n                                }, undefined),\n                                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(src_components_Field_Field__WEBPACK_IMPORTED_MODULE_6__[\"default\"], {\n                                    type: \"password\",\n                                    name: \"password\",\n                                    placeholder: \"Contrase\\xf1a\",\n                                    value: values.password,\n                                    error: touched.password ? errors.password : false,\n                                    onBlur: handleBlur,\n                                    onChange: handleChange\n                                }, void 0, false, {\n                                    fileName: \"C:\\\\Users\\\\cristian\\\\Desktop\\\\Code\\\\Web\\\\Projects\\\\task-list\\\\client\\\\src\\\\components\\\\Form\\\\SignUpForm.js\",\n                                    lineNumber: 88,\n                                    columnNumber: 15\n                                }, undefined)\n                            ]\n                        }, void 0, true, {\n                            fileName: \"C:\\\\Users\\\\cristian\\\\Desktop\\\\Code\\\\Web\\\\Projects\\\\task-list\\\\client\\\\src\\\\components\\\\Form\\\\SignUpForm.js\",\n                            lineNumber: 70,\n                            columnNumber: 13\n                        }, undefined)\n                    }, void 0, false, {\n                        fileName: \"C:\\\\Users\\\\cristian\\\\Desktop\\\\Code\\\\Web\\\\Projects\\\\task-list\\\\client\\\\src\\\\components\\\\Form\\\\SignUpForm.js\",\n                        lineNumber: 69,\n                        columnNumber: 11\n                    }, undefined),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                        className: (_SignUpForm_module_scss__WEBPACK_IMPORTED_MODULE_10___default().footer),\n                        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(src_components_Container_Container__WEBPACK_IMPORTED_MODULE_8__[\"default\"], {\n                            rowDirection: true,\n                            children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(src_components_Button_Button__WEBPACK_IMPORTED_MODULE_7__[\"default\"], {\n                                type: \"submit\",\n                                label: \"Crear cuenta\",\n                                expand: true,\n                                primary: true,\n                                loading: isSubmitting,\n                                onHover: ()=>router.prefetch(\"/services\")\n                            }, void 0, false, {\n                                fileName: \"C:\\\\Users\\\\cristian\\\\Desktop\\\\Code\\\\Web\\\\Projects\\\\task-list\\\\client\\\\src\\\\components\\\\Form\\\\SignUpForm.js\",\n                                lineNumber: 100,\n                                columnNumber: 15\n                            }, undefined)\n                        }, void 0, false, {\n                            fileName: \"C:\\\\Users\\\\cristian\\\\Desktop\\\\Code\\\\Web\\\\Projects\\\\task-list\\\\client\\\\src\\\\components\\\\Form\\\\SignUpForm.js\",\n                            lineNumber: 99,\n                            columnNumber: 13\n                        }, undefined)\n                    }, void 0, false, {\n                        fileName: \"C:\\\\Users\\\\cristian\\\\Desktop\\\\Code\\\\Web\\\\Projects\\\\task-list\\\\client\\\\src\\\\components\\\\Form\\\\SignUpForm.js\",\n                        lineNumber: 98,\n                        columnNumber: 11\n                    }, undefined),\n                    error && /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"p\", {\n                        className: (_SignUpForm_module_scss__WEBPACK_IMPORTED_MODULE_10___default().error),\n                        children: error\n                    }, void 0, false, {\n                        fileName: \"C:\\\\Users\\\\cristian\\\\Desktop\\\\Code\\\\Web\\\\Projects\\\\task-list\\\\client\\\\src\\\\components\\\\Form\\\\SignUpForm.js\",\n                        lineNumber: 109,\n                        columnNumber: 21\n                    }, undefined)\n                ]\n            }, void 0, true, {\n                fileName: \"C:\\\\Users\\\\cristian\\\\Desktop\\\\Code\\\\Web\\\\Projects\\\\task-list\\\\client\\\\src\\\\components\\\\Form\\\\SignUpForm.js\",\n                lineNumber: 65,\n                columnNumber: 9\n            }, undefined)\n    }, void 0, false, {\n        fileName: \"C:\\\\Users\\\\cristian\\\\Desktop\\\\Code\\\\Web\\\\Projects\\\\task-list\\\\client\\\\src\\\\components\\\\Form\\\\SignUpForm.js\",\n        lineNumber: 48,\n        columnNumber: 5\n    }, undefined);\n};\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (SignUpForm);\n\n__webpack_async_result__();\n} catch(e) { __webpack_async_result__(e); } });//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,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QUFNLEVBQUUsSUFBSTtnQ0FDWkMsT0FBTyxFQUFFLElBQUk7Z0NBQ2JDLE9BQU8sRUFBRXRCLFlBQVk7Z0NBQ3JCdUIsT0FBTyxFQUFFLElBQUs3QyxNQUFNLENBQUM4QyxRQUFRLENBQUMsV0FBVyxDQUFDOzs7Ozt5Q0FBRzs7Ozs7cUNBQ3JDOzs7OztpQ0FDUjtvQkFDTG5ELEtBQUssa0JBQUksOERBQUNpQyxHQUFDO3dCQUFDSixTQUFTLEVBQUUzQyx1RUFBWTtrQ0FBR2MsS0FBSzs7Ozs7aUNBQUs7Ozs7Ozt5QkFDNUM7Ozs7O2lCQUVGLENBQ1Y7Q0FDRjtBQUVELGlFQUFlRCxVQUFVLEVBQUMiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9jbGllbnQvLi9zcmMvY29tcG9uZW50cy9Gb3JtL1NpZ25VcEZvcm0uanM/MzNiMSJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgUmVhY3QgZnJvbSAncmVhY3QnO1xyXG5pbXBvcnQgKiBhcyBZdXAgZnJvbSAneXVwJztcclxuaW1wb3J0IHsgRm9ybWlrIH0gZnJvbSAnZm9ybWlrJztcclxuaW1wb3J0IGFnZW50IGZyb20gJ3NyYy9hZ2VudCc7XHJcbmltcG9ydCB7IHVzZVJvdXRlciB9IGZyb20gJ25leHQvcm91dGVyJztcclxuaW1wb3J0IHN0eWxlcyBmcm9tICcuL1NpZ25VcEZvcm0ubW9kdWxlLnNjc3MnO1xyXG5pbXBvcnQgRmllbGQgZnJvbSAnc3JjL2NvbXBvbmVudHMvRmllbGQvRmllbGQnO1xyXG5pbXBvcnQgQnV0dG9uIGZyb20gJ3NyYy9jb21wb25lbnRzL0J1dHRvbi9CdXR0b24nO1xyXG5pbXBvcnQgQ29udGFpbmVyIGZyb20gJ3NyYy9jb21wb25lbnRzL0NvbnRhaW5lci9Db250YWluZXInO1xyXG5pbXBvcnQgSW1hZ2VTZWxlY3RvcjEgZnJvbSAnc3JjL2NvbXBvbmVudHMvSW1hZ2VTZWxlY3Rvci9JbWFnZVNlbGVjdG9yMSc7XHJcblxyXG5jb25zdCBTaWduVXBTY2hlbWEgPSBZdXAub2JqZWN0KCkuc2hhcGUoe1xyXG4gIHVzZXJuYW1lOiBZdXAuc3RyaW5nKClcclxuICAgIC5yZXF1aXJlZCgnRXN0ZSBjYW1wbyBlcyByZXF1ZXJpZG8nKSxcclxuICBlbWFpbDogWXVwLnN0cmluZygpXHJcbiAgICAucmVxdWlyZWQoJ0VzdGUgY2FtcG8gZXMgcmVxdWVyaWRvJyksXHJcbiAgcGFzc3dvcmQ6IFl1cC5zdHJpbmcoKVxyXG4gICAgLnJlcXVpcmVkKCdFc3RlIGNhbXBvIGVzIHJlcXVlcmlkbycpXHJcbn0pO1xyXG5cclxuY29uc3QgU2lnblVwRm9ybSA9ICgpPT4ge1xyXG4gIGNvbnN0IFtlcnJvciwgc2V0RXJyb3JdID0gUmVhY3QudXNlU3RhdGUoXCJcIik7XHJcbiAgY29uc3QgW2ltYWdlLCBzZXRJbWFnZV0gPSBSZWFjdC51c2VTdGF0ZShcIlwiKTtcclxuICBjb25zdCByb3V0ZXIgPSB1c2VSb3V0ZXIoKTtcclxuXHJcbiAgY29uc3QgaGFuZGxlQ2hhbmdlSW1hZ2UgPSAoaW1hZ2UpPT4ge1xyXG4gICAgYWdlbnQuVGVtcC5pbWFnZShpbWFnZSlcclxuICAgIC50aGVuKChyZXNwb25zZSk9PiB7XHJcbiAgICAgIHNldEltYWdlKHJlc3BvbnNlLmRhdGEuaW1hZ2UpO1xyXG4gICAgfSk7XHJcbiAgfVxyXG5cclxuICBjb25zdCBoYW5kbGVTdWJtaXQgPSBhc3luYyAoe3VzZXJuYW1lLCBlbWFpbCwgcGFzc3dvcmR9KT0+IHtcclxuICAgIGFnZW50LlVzZXIuc2lnblVwKHtcclxuICAgICAgaW1hZ2UsXHJcbiAgICAgIHVzZXJuYW1lLFxyXG4gICAgICBlbWFpbCwgXHJcbiAgICAgIHBhc3N3b3JkXHJcbiAgICB9KS50aGVuKChyZXNwb25zZSk9PiB7XHJcbiAgICAgIGNvbnNvbGUubG9nKHJlc3BvbnNlKTtcclxuICAgICAgcm91dGVyLnB1c2goXCIvdGFza0xpc3RcIik7XHJcbiAgICB9KS5jYXRjaCgoZXJyb3IpPT4ge1xyXG4gICAgICBzZXRFcnJvcihlcnJvcj8ucmVzcG9uc2U/LmRhdGE/Lm1lc3NhZ2UpO1xyXG4gICAgfSk7XHJcbiAgfVxyXG5cclxuICByZXR1cm4gKFxyXG4gICAgPEZvcm1payBcclxuICAgICAgaW5pdGlhbFZhbHVlcz17e1xyXG4gICAgICAgIHVzZXJuYW1lOiBcIlwiLFxyXG4gICAgICAgIGVtYWlsOiBcIlwiLCBcclxuICAgICAgICBwYXNzd29yZDogXCJcIlxyXG4gICAgICB9fVxyXG4gICAgICB2YWxpZGF0aW9uU2NoZW1hPXtTaWduVXBTY2hlbWF9XHJcbiAgICAgIG9uU3VibWl0PXtoYW5kbGVTdWJtaXR9PlxyXG4gICAgICB7KHtcclxuICAgICAgICBlcnJvcnMsXHJcbiAgICAgICAgdmFsdWVzLFxyXG4gICAgICAgIHRvdWNoZWQsXHJcbiAgICAgICAgaGFuZGxlU3VibWl0LFxyXG4gICAgICAgIGhhbmRsZUJsdXIsXHJcbiAgICAgICAgaGFuZGxlQ2hhbmdlLFxyXG4gICAgICAgIGlzU3VibWl0dGluZ1xyXG4gICAgICB9KT0+IChcclxuICAgICAgICA8Zm9ybSBjbGFzc05hbWU9e3N0eWxlcy5zaWduX2luX2Zvcm19IG9uU3VibWl0PXtoYW5kbGVTdWJtaXR9PlxyXG4gICAgICAgICAgPGRpdiBjbGFzc05hbWU9e3N0eWxlcy5oZWFkZXJ9PlxyXG4gICAgICAgICAgICA8cCBjbGFzc05hbWU9e3N0eWxlcy50aXRsZX0+Q3JlYXIgY3VlbnRhPC9wPlxyXG4gICAgICAgICAgPC9kaXY+XHJcbiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT17c3R5bGVzLm1haW59PlxyXG4gICAgICAgICAgICA8Q29udGFpbmVyIGNvbHVtbkRpcmVjdGlvbiBtZWRpdW1TZXBhcmF0aW9uPlxyXG4gICAgICAgICAgICAgIDxJbWFnZVNlbGVjdG9yMSBvbkNoYW5nZT17aGFuZGxlQ2hhbmdlSW1hZ2V9Lz5cclxuICAgICAgICAgICAgICA8RmllbGQgXHJcbiAgICAgICAgICAgICAgICB0eXBlPVwidGV4dFwiXHJcbiAgICAgICAgICAgICAgICBuYW1lPVwidXNlcm5hbWVcIlxyXG4gICAgICAgICAgICAgICAgcGxhY2Vob2xkZXI9XCJOb21icmUgZGUgdXN1YXJpb1wiXHJcbiAgICAgICAgICAgICAgICB2YWx1ZT17dmFsdWVzLnVzZXJuYW1lfVxyXG4gICAgICAgICAgICAgICAgZXJyb3I9e3RvdWNoZWQudXNlcm5hbWUgPyBlcnJvcnMudXNlcm5hbWUgOiBudWxsfVxyXG4gICAgICAgICAgICAgICAgb25CbHVyPXtoYW5kbGVCbHVyfVxyXG4gICAgICAgICAgICAgICAgb25DaGFuZ2U9e2hhbmRsZUNoYW5nZX0vPlxyXG4gICAgICAgICAgICAgIDxGaWVsZCBcclxuICAgICAgICAgICAgICAgIHR5cGU9XCJ0ZXh0XCJcclxuICAgICAgICAgICAgICAgIG5hbWU9XCJlbWFpbFwiXHJcbiAgICAgICAgICAgICAgICBwbGFjZWhvbGRlcj1cIkNvcnJlb1wiXHJcbiAgICAgICAgICAgICAgICB2YWx1ZT17dmFsdWVzLmVtYWlsfVxyXG4gICAgICAgICAgICAgICAgZXJyb3I9e3RvdWNoZWQuZW1haWwgPyBlcnJvcnMuZW1haWwgOiBudWxsfVxyXG4gICAgICAgICAgICAgICAgb25CbHVyPXtoYW5kbGVCbHVyfVxyXG4gICAgICAgICAgICAgICAgb25DaGFuZ2U9e2hhbmRsZUNoYW5nZX0vPlxyXG4gICAgICAgICAgICAgIDxGaWVsZCBcclxuICAgICAgICAgICAgICAgIHR5cGU9XCJwYXNzd29yZFwiXHJcbiAgICAgICAgICAgICAgICBuYW1lPVwicGFzc3dvcmRcIlxyXG4gICAgICAgICAgICAgICAgcGxhY2Vob2xkZXI9XCJDb250cmFzZcOxYVwiXHJcbiAgICAgICAgICAgICAgICB2YWx1ZT17dmFsdWVzLnBhc3N3b3JkfVxyXG4gICAgICAgICAgICAgICAgZXJyb3I9e3RvdWNoZWQucGFzc3dvcmQgPyBlcnJvcnMucGFzc3dvcmQgOiBmYWxzZX1cclxuICAgICAgICAgICAgICAgIG9uQmx1cj17aGFuZGxlQmx1cn1cclxuICAgICAgICAgICAgICAgIG9uQ2hhbmdlPXtoYW5kbGVDaGFuZ2V9Lz5cclxuICAgICAgICAgICAgPC9Db250YWluZXI+XHJcbiAgICAgICAgICA8L2Rpdj5cclxuICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPXtzdHlsZXMuZm9vdGVyfT5cclxuICAgICAgICAgICAgPENvbnRhaW5lciByb3dEaXJlY3Rpb24+XHJcbiAgICAgICAgICAgICAgPEJ1dHRvbiBcclxuICAgICAgICAgICAgICAgIHR5cGU9XCJzdWJtaXRcIlxyXG4gICAgICAgICAgICAgICAgbGFiZWw9XCJDcmVhciBjdWVudGFcIiBcclxuICAgICAgICAgICAgICAgIGV4cGFuZD17dHJ1ZX1cclxuICAgICAgICAgICAgICAgIHByaW1hcnk9e3RydWV9XHJcbiAgICAgICAgICAgICAgICBsb2FkaW5nPXtpc1N1Ym1pdHRpbmd9XHJcbiAgICAgICAgICAgICAgICBvbkhvdmVyPXsoKT0+IHJvdXRlci5wcmVmZXRjaChcIi9zZXJ2aWNlc1wiKX0vPlxyXG4gICAgICAgICAgICA8L0NvbnRhaW5lcj5cclxuICAgICAgICAgIDwvZGl2PlxyXG4gICAgICAgICAge2Vycm9yICYmIDxwIGNsYXNzTmFtZT17c3R5bGVzLmVycm9yfT57ZXJyb3J9PC9wPn1cclxuICAgICAgICA8L2Zvcm0+XHJcbiAgICAgICl9XHJcbiAgICA8L0Zvcm1paz5cclxuICApXHJcbn1cclxuXHJcbmV4cG9ydCBkZWZhdWx0IFNpZ25VcEZvcm07Il0sIm5hbWVzIjpbIlJlYWN0IiwiWXVwIiwiRm9ybWlrIiwiYWdlbnQiLCJ1c2VSb3V0ZXIiLCJzdHlsZXMiLCJGaWVsZCIsIkJ1dHRvbiIsIkNvbnRhaW5lciIsIkltYWdlU2VsZWN0b3IxIiwiU2lnblVwU2NoZW1hIiwib2JqZWN0Iiwic2hhcGUiLCJ1c2VybmFtZSIsInN0cmluZyIsInJlcXVpcmVkIiwiZW1haWwiLCJwYXNzd29yZCIsIlNpZ25VcEZvcm0iLCJlcnJvciIsInNldEVycm9yIiwidXNlU3RhdGUiLCJpbWFnZSIsInNldEltYWdlIiwicm91dGVyIiwiaGFuZGxlQ2hhbmdlSW1hZ2UiLCJUZW1wIiwidGhlbiIsInJlc3BvbnNlIiwiZGF0YSIsImhhbmRsZVN1Ym1pdCIsIlVzZXIiLCJzaWduVXAiLCJjb25zb2xlIiwibG9nIiwicHVzaCIsImNhdGNoIiwibWVzc2FnZSIsImluaXRpYWxWYWx1ZXMiLCJ2YWxpZGF0aW9uU2NoZW1hIiwib25TdWJtaXQiLCJlcnJvcnMiLCJ2YWx1ZXMiLCJ0b3VjaGVkIiwiaGFuZGxlQmx1ciIsImhhbmRsZUNoYW5nZSIsImlzU3VibWl0dGluZyIsImZvcm0iLCJjbGFzc05hbWUiLCJzaWduX2luX2Zvcm0iLCJkaXYiLCJoZWFkZXIiLCJwIiwidGl0bGUiLCJtYWluIiwiY29sdW1uRGlyZWN0aW9uIiwibWVkaXVtU2VwYXJhdGlvbiIsIm9uQ2hhbmdlIiwidHlwZSIsIm5hbWUiLCJwbGFjZWhvbGRlciIsInZhbHVlIiwib25CbHVyIiwiZm9vdGVyIiwicm93RGlyZWN0aW9uIiwibGFiZWwiLCJleHBhbmQiLCJwcmltYXJ5IiwibG9hZGluZyIsIm9uSG92ZXIiLCJwcmVmZXRjaCJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./src/components/Form/SignUpForm.js\n");
-
-/***/ }),
-
-/***/ "./src/components/ImageSelector/ImageSelector1.js":
-/*!********************************************************!*\
-  !*** ./src/components/ImageSelector/ImageSelector1.js ***!
-  \********************************************************/
+=======
+/***/ 1391:
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
+__webpack_require__.a(module, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "Z": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(997);
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(6689);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var yup__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(5609);
+/* harmony import */ var yup__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(yup__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var formik__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(2296);
+/* harmony import */ var formik__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(formik__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var src_agent__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(9106);
+/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(1853);
+/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(next_router__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _SignUpForm_module_scss__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(4708);
+/* harmony import */ var _SignUpForm_module_scss__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(_SignUpForm_module_scss__WEBPACK_IMPORTED_MODULE_10__);
+/* harmony import */ var src_components_Field_Field__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(654);
+/* harmony import */ var src_components_Button_Button__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(7695);
+/* harmony import */ var src_components_Container_Container__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(9396);
+/* harmony import */ var src_components_ImageSelector_ImageSelector1__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(7773);
+var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([src_components_ImageSelector_ImageSelector1__WEBPACK_IMPORTED_MODULE_9__]);
+src_components_ImageSelector_ImageSelector1__WEBPACK_IMPORTED_MODULE_9__ = (__webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__)[0];
+
+
+
+
+
+
+
+
+
+
+
+const SignUpSchema = yup__WEBPACK_IMPORTED_MODULE_2__.object().shape({
+    username: yup__WEBPACK_IMPORTED_MODULE_2__.string().required("Este campo es requerido"),
+    email: yup__WEBPACK_IMPORTED_MODULE_2__.string().required("Este campo es requerido"),
+    password: yup__WEBPACK_IMPORTED_MODULE_2__.string().required("Este campo es requerido")
+});
+const SignUpForm = ()=>{
+    const [error, setError] = react__WEBPACK_IMPORTED_MODULE_1___default().useState("");
+    const [image, setImage] = react__WEBPACK_IMPORTED_MODULE_1___default().useState("");
+    const router = (0,next_router__WEBPACK_IMPORTED_MODULE_5__.useRouter)();
+    const handleSubmit = async ({ username , email , password  })=>{
+        src_agent__WEBPACK_IMPORTED_MODULE_4__/* ["default"].User.signUp */ .Z.User.signUp({
+            image,
+            username,
+            email,
+            password
+        }).then((response)=>{
+            router.push("/taskList");
+        }).catch((error)=>{
+            setError(error?.response?.data?.message);
+        });
+    };
+    return /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(formik__WEBPACK_IMPORTED_MODULE_3__.Formik, {
+        initialValues: {
+            username: "",
+            email: "",
+            password: ""
+        },
+        validationSchema: SignUpSchema,
+        onSubmit: handleSubmit,
+        children: ({ errors , values , touched , handleSubmit , handleBlur , handleChange , isSubmitting  })=>/*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("form", {
+                className: (_SignUpForm_module_scss__WEBPACK_IMPORTED_MODULE_10___default().sign_in_form),
+                onSubmit: handleSubmit,
+                children: [
+                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+                        className: (_SignUpForm_module_scss__WEBPACK_IMPORTED_MODULE_10___default().header),
+                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                            className: (_SignUpForm_module_scss__WEBPACK_IMPORTED_MODULE_10___default().title),
+                            children: "Crear cuenta"
+                        })
+                    }),
+                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+                        className: (_SignUpForm_module_scss__WEBPACK_IMPORTED_MODULE_10___default().main),
+                        children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(src_components_Container_Container__WEBPACK_IMPORTED_MODULE_8__/* ["default"] */ .Z, {
+                            columnDirection: true,
+                            mediumSeparation: true,
+                            children: [
+                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(src_components_ImageSelector_ImageSelector1__WEBPACK_IMPORTED_MODULE_9__/* ["default"] */ .Z, {
+                                    onChange: (image)=>setImage(image)
+                                }),
+                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(src_components_Field_Field__WEBPACK_IMPORTED_MODULE_6__/* ["default"] */ .Z, {
+                                    type: "text",
+                                    name: "username",
+                                    placeholder: "Nombre de usuario",
+                                    value: values.username,
+                                    error: touched.username ? errors.username : null,
+                                    onBlur: handleBlur,
+                                    onChange: handleChange
+                                }),
+                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(src_components_Field_Field__WEBPACK_IMPORTED_MODULE_6__/* ["default"] */ .Z, {
+                                    type: "text",
+                                    name: "email",
+                                    placeholder: "Correo",
+                                    value: values.email,
+                                    error: touched.email ? errors.email : null,
+                                    onBlur: handleBlur,
+                                    onChange: handleChange
+                                }),
+                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(src_components_Field_Field__WEBPACK_IMPORTED_MODULE_6__/* ["default"] */ .Z, {
+                                    type: "password",
+                                    name: "password",
+                                    placeholder: "Contrase\xf1a",
+                                    value: values.password,
+                                    error: touched.password ? errors.password : false,
+                                    onBlur: handleBlur,
+                                    onChange: handleChange
+                                })
+                            ]
+                        })
+                    }),
+                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+                        className: (_SignUpForm_module_scss__WEBPACK_IMPORTED_MODULE_10___default().footer),
+                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(src_components_Container_Container__WEBPACK_IMPORTED_MODULE_8__/* ["default"] */ .Z, {
+                            rowDirection: true,
+                            children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(src_components_Button_Button__WEBPACK_IMPORTED_MODULE_7__/* ["default"] */ .Z, {
+                                type: "submit",
+                                label: "Crear cuenta",
+                                expand: true,
+                                primary: true,
+                                loading: isSubmitting,
+                                onHover: ()=>router.prefetch("/services")
+                            })
+                        })
+                    }),
+                    error && /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                        className: (_SignUpForm_module_scss__WEBPACK_IMPORTED_MODULE_10___default().error),
+                        children: error
+                    })
+                ]
+            })
+    });
+};
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (SignUpForm);
+
+__webpack_async_result__();
+} catch(e) { __webpack_async_result__(e); } });
+>>>>>>> 071a6edb5e6a2c5952b0c0d5b5117168a4bc2ad2
+
+/***/ }),
+
+/***/ 7773:
+/***/ ((module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+<<<<<<< HEAD
 eval("__webpack_require__.a(module, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {\n__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ \"react\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var react_feather__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-feather */ \"react-feather\");\n/* harmony import */ var react_feather__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_feather__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var _ImageSelector1_module_scss__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./ImageSelector1.module.scss */ \"./src/components/ImageSelector/ImageSelector1.module.scss\");\n/* harmony import */ var _ImageSelector1_module_scss__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_ImageSelector1_module_scss__WEBPACK_IMPORTED_MODULE_4__);\n/* harmony import */ var src_hooks_StorageContext__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! src/hooks/StorageContext */ \"./src/hooks/StorageContext.js\");\nvar __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([src_hooks_StorageContext__WEBPACK_IMPORTED_MODULE_3__]);\nsrc_hooks_StorageContext__WEBPACK_IMPORTED_MODULE_3__ = (__webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__)[0];\n\n\n\n\n\nconst ImageSelector1 = ({ onChange  })=>{\n    const defaultImageURL = \"/images/user1.svg\";\n    const [image, setImage] = react__WEBPACK_IMPORTED_MODULE_1___default().useState(defaultImageURL);\n    const storage = (0,src_hooks_StorageContext__WEBPACK_IMPORTED_MODULE_3__.useStorage)();\n    react__WEBPACK_IMPORTED_MODULE_1___default().useEffect(()=>{\n        fetch(defaultImageURL).then((r)=>r.blob()).then((imageBlob)=>onChange(imageBlob));\n    }, []);\n    const loadImage = ()=>{\n        storage.loadImage((image)=>{\n            setImage(image.src);\n            onChange(image.blob);\n        });\n    };\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n        className: (_ImageSelector1_module_scss__WEBPACK_IMPORTED_MODULE_4___default().image_selector),\n        onClick: loadImage,\n        children: [\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"img\", {\n                className: (_ImageSelector1_module_scss__WEBPACK_IMPORTED_MODULE_4___default().image),\n                src: image\n            }, void 0, false, {\n                fileName: \"C:\\\\Users\\\\cristian\\\\Desktop\\\\Code\\\\Web\\\\Projects\\\\task-list\\\\client\\\\src\\\\components\\\\ImageSelector\\\\ImageSelector1.js\",\n                lineNumber: 26,\n                columnNumber: 7\n            }, undefined),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"p\", {\n                className: (_ImageSelector1_module_scss__WEBPACK_IMPORTED_MODULE_4___default().label),\n                children: \"Seleccionar imagen\"\n            }, void 0, false, {\n                fileName: \"C:\\\\Users\\\\cristian\\\\Desktop\\\\Code\\\\Web\\\\Projects\\\\task-list\\\\client\\\\src\\\\components\\\\ImageSelector\\\\ImageSelector1.js\",\n                lineNumber: 27,\n                columnNumber: 7\n            }, undefined),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(react_feather__WEBPACK_IMPORTED_MODULE_2__.ChevronRight, {\n                className: (_ImageSelector1_module_scss__WEBPACK_IMPORTED_MODULE_4___default().icon)\n            }, void 0, false, {\n                fileName: \"C:\\\\Users\\\\cristian\\\\Desktop\\\\Code\\\\Web\\\\Projects\\\\task-list\\\\client\\\\src\\\\components\\\\ImageSelector\\\\ImageSelector1.js\",\n                lineNumber: 28,\n                columnNumber: 7\n            }, undefined)\n        ]\n    }, void 0, true, {\n        fileName: \"C:\\\\Users\\\\cristian\\\\Desktop\\\\Code\\\\Web\\\\Projects\\\\task-list\\\\client\\\\src\\\\components\\\\ImageSelector\\\\ImageSelector1.js\",\n        lineNumber: 25,\n        columnNumber: 5\n    }, undefined);\n};\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (ImageSelector1);\n\n__webpack_async_result__();\n} catch(e) { __webpack_async_result__(e); } });//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvY29tcG9uZW50cy9JbWFnZVNlbGVjdG9yL0ltYWdlU2VsZWN0b3IxLmpzLmpzIiwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7Ozs7Ozs7QUFBQTtBQUEwQjtBQUNZO0FBQ1k7QUFDSTtBQUV0RCxNQUFNSSxjQUFjLEdBQUcsQ0FBQyxFQUFDQyxRQUFRLEdBQUMsR0FBSTtJQUNwQyxNQUFNQyxlQUFlLEdBQUcsbUJBQW1CO0lBQzNDLE1BQU0sQ0FBQ0MsS0FBSyxFQUFFQyxRQUFRLENBQUMsR0FBR1IscURBQWMsQ0FBQ00sZUFBZSxDQUFDO0lBQ3pELE1BQU1JLE9BQU8sR0FBR1Asb0VBQVUsRUFBRTtJQUU1Qkgsc0RBQWUsQ0FBQyxJQUFLO1FBQ25CWSxLQUFLLENBQUNOLGVBQWUsQ0FBQyxDQUNyQk8sSUFBSSxDQUFDQyxDQUFBQSxDQUFDLEdBQUlBLENBQUMsQ0FBQ0MsSUFBSSxFQUFFLENBQUMsQ0FDbkJGLElBQUksQ0FBQyxDQUFDRyxTQUFTLEdBQUlYLFFBQVEsQ0FBQ1csU0FBUyxDQUFDLENBQUMsQ0FBQztLQUMxQyxFQUFFLEVBQUUsQ0FBQyxDQUFDO0lBRVAsTUFBTUMsU0FBUyxHQUFHLElBQUs7UUFDckJQLE9BQU8sQ0FBQ08sU0FBUyxDQUFDLENBQUNWLEtBQUssR0FBSTtZQUMxQkMsUUFBUSxDQUFDRCxLQUFLLENBQUNXLEdBQUcsQ0FBQyxDQUFDO1lBQ3BCYixRQUFRLENBQUNFLEtBQUssQ0FBQ1EsSUFBSSxDQUFDLENBQUM7U0FDdEIsQ0FBQyxDQUFDO0tBQ0o7SUFFRCxxQkFDRSw4REFBQ0ksS0FBRztRQUFDQyxTQUFTLEVBQUVsQixtRkFBcUI7UUFBRW9CLE9BQU8sRUFBRUwsU0FBUzs7MEJBQ3ZELDhEQUFDTSxLQUFHO2dCQUFDSCxTQUFTLEVBQUVsQiwwRUFBWTtnQkFBRWdCLEdBQUcsRUFBRVgsS0FBSzs7Ozs7eUJBQUc7MEJBQzNDLDhEQUFDaUIsR0FBQztnQkFBQ0osU0FBUyxFQUFFbEIsMEVBQVk7MEJBQUUsb0JBQWtCOzs7Ozt5QkFBSTswQkFDbEQsOERBQUNELHVEQUFpQjtnQkFBQ21CLFNBQVMsRUFBRWxCLHlFQUFXOzs7Ozt5QkFBRzs7Ozs7O2lCQUN4QyxDQUNQO0NBQ0Y7QUFFRCxpRUFBZUUsY0FBYyxFQUFDIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vY2xpZW50Ly4vc3JjL2NvbXBvbmVudHMvSW1hZ2VTZWxlY3Rvci9JbWFnZVNlbGVjdG9yMS5qcz9iODlhIl0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBSZWFjdCBmcm9tICdyZWFjdCc7XHJcbmltcG9ydCAqIGFzIEljb24gZnJvbSAncmVhY3QtZmVhdGhlcic7XHJcbmltcG9ydCBzdHlsZXMgZnJvbSAnLi9JbWFnZVNlbGVjdG9yMS5tb2R1bGUuc2Nzcyc7XHJcbmltcG9ydCB7IHVzZVN0b3JhZ2UgfSBmcm9tICdzcmMvaG9va3MvU3RvcmFnZUNvbnRleHQnO1xyXG5cclxuY29uc3QgSW1hZ2VTZWxlY3RvcjEgPSAoe29uQ2hhbmdlfSk9PiB7XHJcbiAgY29uc3QgZGVmYXVsdEltYWdlVVJMID0gXCIvaW1hZ2VzL3VzZXIxLnN2Z1wiO1xyXG4gIGNvbnN0IFtpbWFnZSwgc2V0SW1hZ2VdID0gUmVhY3QudXNlU3RhdGUoZGVmYXVsdEltYWdlVVJMKTtcclxuICBjb25zdCBzdG9yYWdlID0gdXNlU3RvcmFnZSgpO1xyXG5cclxuICBSZWFjdC51c2VFZmZlY3QoKCk9PiB7XHJcbiAgICBmZXRjaChkZWZhdWx0SW1hZ2VVUkwpXHJcbiAgICAudGhlbihyID0+IHIuYmxvYigpKVxyXG4gICAgLnRoZW4oKGltYWdlQmxvYik9PiBvbkNoYW5nZShpbWFnZUJsb2IpKTtcclxuICB9LCBbXSk7XHJcblxyXG4gIGNvbnN0IGxvYWRJbWFnZSA9ICgpPT4ge1xyXG4gICAgc3RvcmFnZS5sb2FkSW1hZ2UoKGltYWdlKT0+IHtcclxuICAgICAgc2V0SW1hZ2UoaW1hZ2Uuc3JjKTtcclxuICAgICAgb25DaGFuZ2UoaW1hZ2UuYmxvYik7XHJcbiAgICB9KTtcclxuICB9XHJcblxyXG4gIHJldHVybiAoXHJcbiAgICA8ZGl2IGNsYXNzTmFtZT17c3R5bGVzLmltYWdlX3NlbGVjdG9yfSBvbkNsaWNrPXtsb2FkSW1hZ2V9PlxyXG4gICAgICA8aW1nIGNsYXNzTmFtZT17c3R5bGVzLmltYWdlfSBzcmM9e2ltYWdlfS8+XHJcbiAgICAgIDxwIGNsYXNzTmFtZT17c3R5bGVzLmxhYmVsfT5TZWxlY2Npb25hciBpbWFnZW48L3A+XHJcbiAgICAgIDxJY29uLkNoZXZyb25SaWdodCBjbGFzc05hbWU9e3N0eWxlcy5pY29ufS8+XHJcbiAgICA8L2Rpdj5cclxuICApXHJcbn1cclxuXHJcbmV4cG9ydCBkZWZhdWx0IEltYWdlU2VsZWN0b3IxOyJdLCJuYW1lcyI6WyJSZWFjdCIsIkljb24iLCJzdHlsZXMiLCJ1c2VTdG9yYWdlIiwiSW1hZ2VTZWxlY3RvcjEiLCJvbkNoYW5nZSIsImRlZmF1bHRJbWFnZVVSTCIsImltYWdlIiwic2V0SW1hZ2UiLCJ1c2VTdGF0ZSIsInN0b3JhZ2UiLCJ1c2VFZmZlY3QiLCJmZXRjaCIsInRoZW4iLCJyIiwiYmxvYiIsImltYWdlQmxvYiIsImxvYWRJbWFnZSIsInNyYyIsImRpdiIsImNsYXNzTmFtZSIsImltYWdlX3NlbGVjdG9yIiwib25DbGljayIsImltZyIsInAiLCJsYWJlbCIsIkNoZXZyb25SaWdodCIsImljb24iXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./src/components/ImageSelector/ImageSelector1.js\n");
 
 /***/ }),
@@ -291,13 +467,111 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /*!*************************************!*\
   !*** ./src/hooks/StorageContext.js ***!
   \*************************************/
-/***/ ((module, __webpack_exports__, __webpack_require__) => {
+=======
+__webpack_require__.a(module, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "Z": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(997);
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(6689);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var react_feather__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(9101);
+/* harmony import */ var react_feather__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_feather__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _ImageSelector1_module_scss__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(2144);
+/* harmony import */ var _ImageSelector1_module_scss__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_ImageSelector1_module_scss__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var src_hooks_StorageContext__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(9999);
+var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([src_hooks_StorageContext__WEBPACK_IMPORTED_MODULE_3__]);
+src_hooks_StorageContext__WEBPACK_IMPORTED_MODULE_3__ = (__webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__)[0];
 
-"use strict";
-eval("__webpack_require__.a(module, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {\n__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"StorageProvider\": () => (/* binding */ StorageProvider),\n/* harmony export */   \"useStorage\": () => (/* binding */ useStorage)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ \"react\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var nanoid__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! nanoid */ \"nanoid\");\nvar __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([nanoid__WEBPACK_IMPORTED_MODULE_2__]);\nnanoid__WEBPACK_IMPORTED_MODULE_2__ = (__webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__)[0];\n\n\n\nconst StorageContext = /*#__PURE__*/ react__WEBPACK_IMPORTED_MODULE_1___default().createContext({\n    loadImage: (callback)=>{}\n});\nconst StorageProvider = ({ children  })=>{\n    const loadImage = (callback)=>{\n        const input = document.createElement(\"input\");\n        input.type = \"file\";\n        input.multiple = false;\n        input.accept = \".jpg, .png, .svg\";\n        input.addEventListener(\"change\", (ev)=>{\n            const fileReader = new FileReader();\n            const file = ev.target.files[0];\n            fileReader.onloadend = ()=>{\n                const dataURL = fileReader.result;\n                const image = {\n                    id: (0,nanoid__WEBPACK_IMPORTED_MODULE_2__.nanoid)(),\n                    blob: file,\n                    dataURL: dataURL,\n                    name: file.name,\n                    size: file.size,\n                    type: file.type,\n                    lastModified: file.lastModified,\n                    src: window.URL.createObjectURL(file)\n                };\n                callback(image);\n            };\n            fileReader.readAsDataURL(file);\n        });\n        input.click();\n    };\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(StorageContext.Provider, {\n        value: {\n            loadImage\n        },\n        children: children\n    }, void 0, false, {\n        fileName: \"C:\\\\Users\\\\cristian\\\\Desktop\\\\Code\\\\Web\\\\Projects\\\\task-list\\\\client\\\\src\\\\hooks\\\\StorageContext.js\",\n        lineNumber: 41,\n        columnNumber: 5\n    }, undefined);\n};\nconst useStorage = ()=>{\n    return react__WEBPACK_IMPORTED_MODULE_1___default().useContext(StorageContext);\n};\n\n\n__webpack_async_result__();\n} catch(e) { __webpack_async_result__(e); } });//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvaG9va3MvU3RvcmFnZUNvbnRleHQuanMuanMiLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7OztBQUFBO0FBQTBCO0FBQ007QUFFaEMsTUFBTUUsY0FBYyxpQkFBR0YsMERBQW1CLENBQUM7SUFDekNJLFNBQVMsRUFBRSxDQUFDQyxRQUFRLEdBQUksRUFBRTtDQUMzQixDQUFDO0FBRUYsTUFBTUMsZUFBZSxHQUFHLENBQUMsRUFBQ0MsUUFBUSxHQUFDLEdBQUk7SUFDckMsTUFBTUgsU0FBUyxHQUFHLENBQUNDLFFBQVEsR0FBSTtRQUM3QixNQUFNRyxLQUFLLEdBQUdDLFFBQVEsQ0FBQ0MsYUFBYSxDQUFDLE9BQU8sQ0FBQztRQUM3Q0YsS0FBSyxDQUFDRyxJQUFJLEdBQUcsTUFBTSxDQUFDO1FBQ3BCSCxLQUFLLENBQUNJLFFBQVEsR0FBRyxLQUFLLENBQUM7UUFDdkJKLEtBQUssQ0FBQ0ssTUFBTSxHQUFHLGtCQUFrQixDQUFDO1FBRWxDTCxLQUFLLENBQUNNLGdCQUFnQixDQUFDLFFBQVEsRUFBRSxDQUFDQyxFQUFFLEdBQUk7WUFDdEMsTUFBTUMsVUFBVSxHQUFHLElBQUlDLFVBQVUsRUFBRTtZQUNuQyxNQUFNQyxJQUFJLEdBQUdILEVBQUUsQ0FBQ0ksTUFBTSxDQUFDQyxLQUFLLENBQUMsQ0FBQyxDQUFDO1lBRS9CSixVQUFVLENBQUNLLFNBQVMsR0FBRyxJQUFLO2dCQUMxQixNQUFNQyxPQUFPLEdBQUdOLFVBQVUsQ0FBQ08sTUFBTTtnQkFFakMsTUFBTUMsS0FBSyxHQUFHO29CQUNaQyxFQUFFLEVBQUV4Qiw4Q0FBTSxFQUFFO29CQUNaeUIsSUFBSSxFQUFFUixJQUFJO29CQUNWSSxPQUFPLEVBQUVBLE9BQU87b0JBQ2hCSyxJQUFJLEVBQUVULElBQUksQ0FBQ1MsSUFBSTtvQkFDZkMsSUFBSSxFQUFFVixJQUFJLENBQUNVLElBQUk7b0JBQ2ZqQixJQUFJLEVBQUVPLElBQUksQ0FBQ1AsSUFBSTtvQkFDZmtCLFlBQVksRUFBRVgsSUFBSSxDQUFDVyxZQUFZO29CQUMvQkMsR0FBRyxFQUFFQyxNQUFNLENBQUNDLEdBQUcsQ0FBQ0MsZUFBZSxDQUFDZixJQUFJLENBQUM7aUJBQ3RDO2dCQUNEYixRQUFRLENBQUNtQixLQUFLLENBQUMsQ0FBQzthQUNqQjtZQUVEUixVQUFVLENBQUNrQixhQUFhLENBQUNoQixJQUFJLENBQUMsQ0FBQztTQUNoQyxDQUFDLENBQUM7UUFDSFYsS0FBSyxDQUFDMkIsS0FBSyxFQUFFLENBQUM7S0FDZjtJQUVELHFCQUNFLDhEQUFDakMsY0FBYyxDQUFDa0MsUUFBUTtRQUN0QkMsS0FBSyxFQUFFO1lBQUNqQyxTQUFTO1NBQUM7a0JBQ2pCRyxRQUFROzs7OztpQkFDZSxDQUMzQjtDQUNGO0FBRUQsTUFBTStCLFVBQVUsR0FBRyxJQUFLO0lBQ3RCLE9BQU90Qyx1REFBZ0IsQ0FBQ0UsY0FBYyxDQUFDLENBQUM7Q0FDekM7QUFFc0MiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9jbGllbnQvLi9zcmMvaG9va3MvU3RvcmFnZUNvbnRleHQuanM/MzQ3YiJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgUmVhY3QgZnJvbSAncmVhY3QnO1xyXG5pbXBvcnQgeyBuYW5vaWQgfSBmcm9tICduYW5vaWQnO1xyXG5cclxuY29uc3QgU3RvcmFnZUNvbnRleHQgPSBSZWFjdC5jcmVhdGVDb250ZXh0KHtcclxuICBsb2FkSW1hZ2U6IChjYWxsYmFjayk9PiB7fSxcclxufSk7XHJcblxyXG5jb25zdCBTdG9yYWdlUHJvdmlkZXIgPSAoe2NoaWxkcmVufSk9PiB7XHJcbiAgY29uc3QgbG9hZEltYWdlID0gKGNhbGxiYWNrKT0+IHtcclxuICAgIGNvbnN0IGlucHV0ID0gZG9jdW1lbnQuY3JlYXRlRWxlbWVudChcImlucHV0XCIpO1xyXG4gICAgaW5wdXQudHlwZSA9IFwiZmlsZVwiO1xyXG4gICAgaW5wdXQubXVsdGlwbGUgPSBmYWxzZTtcclxuICAgIGlucHV0LmFjY2VwdCA9IFwiLmpwZywgLnBuZywgLnN2Z1wiO1xyXG5cclxuICAgIGlucHV0LmFkZEV2ZW50TGlzdGVuZXIoXCJjaGFuZ2VcIiwgKGV2KT0+IHtcclxuICAgICAgY29uc3QgZmlsZVJlYWRlciA9IG5ldyBGaWxlUmVhZGVyKCk7XHJcbiAgICAgIGNvbnN0IGZpbGUgPSBldi50YXJnZXQuZmlsZXNbMF07XHJcblxyXG4gICAgICBmaWxlUmVhZGVyLm9ubG9hZGVuZCA9ICgpPT4ge1xyXG4gICAgICAgIGNvbnN0IGRhdGFVUkwgPSBmaWxlUmVhZGVyLnJlc3VsdDtcclxuICAgICAgICBcclxuICAgICAgICBjb25zdCBpbWFnZSA9IHtcclxuICAgICAgICAgIGlkOiBuYW5vaWQoKSxcclxuICAgICAgICAgIGJsb2I6IGZpbGUsXHJcbiAgICAgICAgICBkYXRhVVJMOiBkYXRhVVJMLFxyXG4gICAgICAgICAgbmFtZTogZmlsZS5uYW1lLFxyXG4gICAgICAgICAgc2l6ZTogZmlsZS5zaXplLFxyXG4gICAgICAgICAgdHlwZTogZmlsZS50eXBlLFxyXG4gICAgICAgICAgbGFzdE1vZGlmaWVkOiBmaWxlLmxhc3RNb2RpZmllZCxcclxuICAgICAgICAgIHNyYzogd2luZG93LlVSTC5jcmVhdGVPYmplY3RVUkwoZmlsZSlcclxuICAgICAgICB9O1xyXG4gICAgICAgIGNhbGxiYWNrKGltYWdlKTtcclxuICAgICAgfVxyXG5cclxuICAgICAgZmlsZVJlYWRlci5yZWFkQXNEYXRhVVJMKGZpbGUpO1xyXG4gICAgfSk7XHJcbiAgICBpbnB1dC5jbGljaygpO1xyXG4gIH1cclxuXHJcbiAgcmV0dXJuIChcclxuICAgIDxTdG9yYWdlQ29udGV4dC5Qcm92aWRlciBcclxuICAgICAgdmFsdWU9e3tsb2FkSW1hZ2V9fT5cclxuICAgICAge2NoaWxkcmVufVxyXG4gICAgPC9TdG9yYWdlQ29udGV4dC5Qcm92aWRlcj5cclxuICApXHJcbn1cclxuXHJcbmNvbnN0IHVzZVN0b3JhZ2UgPSAoKT0+IHtcclxuICByZXR1cm4gUmVhY3QudXNlQ29udGV4dChTdG9yYWdlQ29udGV4dCk7XHJcbn1cclxuXHJcbmV4cG9ydCB7IFN0b3JhZ2VQcm92aWRlciwgdXNlU3RvcmFnZSB9OyJdLCJuYW1lcyI6WyJSZWFjdCIsIm5hbm9pZCIsIlN0b3JhZ2VDb250ZXh0IiwiY3JlYXRlQ29udGV4dCIsImxvYWRJbWFnZSIsImNhbGxiYWNrIiwiU3RvcmFnZVByb3ZpZGVyIiwiY2hpbGRyZW4iLCJpbnB1dCIsImRvY3VtZW50IiwiY3JlYXRlRWxlbWVudCIsInR5cGUiLCJtdWx0aXBsZSIsImFjY2VwdCIsImFkZEV2ZW50TGlzdGVuZXIiLCJldiIsImZpbGVSZWFkZXIiLCJGaWxlUmVhZGVyIiwiZmlsZSIsInRhcmdldCIsImZpbGVzIiwib25sb2FkZW5kIiwiZGF0YVVSTCIsInJlc3VsdCIsImltYWdlIiwiaWQiLCJibG9iIiwibmFtZSIsInNpemUiLCJsYXN0TW9kaWZpZWQiLCJzcmMiLCJ3aW5kb3ciLCJVUkwiLCJjcmVhdGVPYmplY3RVUkwiLCJyZWFkQXNEYXRhVVJMIiwiY2xpY2siLCJQcm92aWRlciIsInZhbHVlIiwidXNlU3RvcmFnZSIsInVzZUNvbnRleHQiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./src/hooks/StorageContext.js\n");
+
+
+
+
+const ImageSelector1 = ({ onChange  })=>{
+    const [image, setImage] = react__WEBPACK_IMPORTED_MODULE_1___default().useState("/images/user1.svg");
+    const storage = (0,src_hooks_StorageContext__WEBPACK_IMPORTED_MODULE_3__/* .useStorage */ .y)();
+    const loadImage = ()=>{
+        storage.loadImage((image)=>{
+            setImage(image.src);
+            onChange(image.dataURL);
+        });
+    };
+    return /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+        className: (_ImageSelector1_module_scss__WEBPACK_IMPORTED_MODULE_4___default().image_selector),
+        onClick: loadImage,
+        children: [
+            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("img", {
+                className: (_ImageSelector1_module_scss__WEBPACK_IMPORTED_MODULE_4___default().image),
+                src: image
+            }),
+            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                className: (_ImageSelector1_module_scss__WEBPACK_IMPORTED_MODULE_4___default().label),
+                children: "Seleccionar imagen"
+            }),
+            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(react_feather__WEBPACK_IMPORTED_MODULE_2__.ChevronRight, {
+                className: (_ImageSelector1_module_scss__WEBPACK_IMPORTED_MODULE_4___default().icon)
+            })
+        ]
+    });
+};
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (ImageSelector1);
+
+__webpack_async_result__();
+} catch(e) { __webpack_async_result__(e); } });
 
 /***/ }),
 
+/***/ 8968:
+>>>>>>> 071a6edb5e6a2c5952b0c0d5b5117168a4bc2ad2
+/***/ ((module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.a(module, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__),
+/* harmony export */   "getServerSideProps": () => (/* binding */ getServerSideProps)
+/* harmony export */ });
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(997);
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(6689);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var src_components_Page_Page__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(4472);
+/* harmony import */ var lib_server_side_sign_out__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(1867);
+/* harmony import */ var src_components_Form_SignUpForm__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(1391);
+/* harmony import */ var src_constants_color__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(4859);
+/* harmony import */ var src_components_CenteredColumn_CenteredColumn__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(7795);
+var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([src_components_Form_SignUpForm__WEBPACK_IMPORTED_MODULE_4__]);
+src_components_Form_SignUpForm__WEBPACK_IMPORTED_MODULE_4__ = (__webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__)[0];
+
+
+
+
+
+
+
+const SignUp = ()=>{
+    const style = {
+        paddingBottom: "10vh",
+        backgroundColor: src_constants_color__WEBPACK_IMPORTED_MODULE_6__/* .PRIMARY_BACKGROUND */ .V
+    };
+    return /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(src_components_Page_Page__WEBPACK_IMPORTED_MODULE_2__/* ["default"] */ .Z, {
+        style: style,
+        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(src_components_CenteredColumn_CenteredColumn__WEBPACK_IMPORTED_MODULE_5__/* ["default"] */ .Z, {
+            children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(src_components_Form_SignUpForm__WEBPACK_IMPORTED_MODULE_4__/* ["default"] */ .Z, {})
+        })
+    });
+};
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (SignUp);
+const getServerSideProps = lib_server_side_sign_out__WEBPACK_IMPORTED_MODULE_3__/* ["default"] */ .Z;
+
+__webpack_async_result__();
+} catch(e) { __webpack_async_result__(e); } });
+
+/***/ }),
+
+<<<<<<< HEAD
 /***/ "./src/hooks/UserContext.js":
 /*!**********************************!*\
   !*** ./src/hooks/UserContext.js ***!
@@ -335,6 +609,9 @@ eval("__webpack_require__.a(module, async (__webpack_handle_async_dependencies__
 /*!************************!*\
   !*** external "axios" ***!
   \************************/
+=======
+/***/ 2167:
+>>>>>>> 071a6edb5e6a2c5952b0c0d5b5117168a4bc2ad2
 /***/ ((module) => {
 
 "use strict";
@@ -342,10 +619,7 @@ module.exports = require("axios");
 
 /***/ }),
 
-/***/ "clsx":
-/*!***********************!*\
-  !*** external "clsx" ***!
-  \***********************/
+/***/ 8103:
 /***/ ((module) => {
 
 "use strict";
@@ -353,10 +627,7 @@ module.exports = require("clsx");
 
 /***/ }),
 
-/***/ "formik":
-/*!*************************!*\
-  !*** external "formik" ***!
-  \*************************/
+/***/ 2296:
 /***/ ((module) => {
 
 "use strict";
@@ -364,10 +635,7 @@ module.exports = require("formik");
 
 /***/ }),
 
-/***/ "next/router":
-/*!******************************!*\
-  !*** external "next/router" ***!
-  \******************************/
+/***/ 1853:
 /***/ ((module) => {
 
 "use strict";
@@ -375,10 +643,7 @@ module.exports = require("next/router");
 
 /***/ }),
 
-/***/ "react":
-/*!************************!*\
-  !*** external "react" ***!
-  \************************/
+/***/ 6689:
 /***/ ((module) => {
 
 "use strict";
@@ -386,10 +651,7 @@ module.exports = require("react");
 
 /***/ }),
 
-/***/ "react-feather":
-/*!********************************!*\
-  !*** external "react-feather" ***!
-  \********************************/
+/***/ 9101:
 /***/ ((module) => {
 
 "use strict";
@@ -397,21 +659,15 @@ module.exports = require("react-feather");
 
 /***/ }),
 
-/***/ "react/jsx-dev-runtime":
-/*!****************************************!*\
-  !*** external "react/jsx-dev-runtime" ***!
-  \****************************************/
+/***/ 997:
 /***/ ((module) => {
 
 "use strict";
-module.exports = require("react/jsx-dev-runtime");
+module.exports = require("react/jsx-runtime");
 
 /***/ }),
 
-/***/ "yup":
-/*!**********************!*\
-  !*** external "yup" ***!
-  \**********************/
+/***/ 5609:
 /***/ ((module) => {
 
 "use strict";
@@ -419,10 +675,7 @@ module.exports = require("yup");
 
 /***/ }),
 
-/***/ "nanoid":
-/*!*************************!*\
-  !*** external "nanoid" ***!
-  \*************************/
+/***/ 5611:
 /***/ ((module) => {
 
 "use strict";
@@ -437,7 +690,7 @@ module.exports = import("nanoid");;
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = (__webpack_exec__("./src/pages/signUp.js"));
+var __webpack_exports__ = __webpack_require__.X(0, [14,22,999], () => (__webpack_exec__(8968)));
 module.exports = __webpack_exports__;
 
 })();
