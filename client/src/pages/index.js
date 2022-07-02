@@ -4,6 +4,7 @@ import serverSideSignOut from 'lib/server-side-sign-out';
 import SignInForm from 'src/components/Form/SignInForm';
 import { PRIMARY_BACKGROUND } from 'src/constants/color';
 import CenteredColumn from 'src/components/CenteredColumn/CenteredColumn';
+import Navigation1 from 'src/components/Navigation/Navigation1';
 
 const Index = ()=> {
   const style = {
@@ -13,6 +14,7 @@ const Index = ()=> {
 
   return (
     <Page style={style}>
+      <Navigation1/>
       <CenteredColumn>
         <SignInForm/>
       </CenteredColumn>

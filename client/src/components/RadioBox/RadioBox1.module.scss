@@ -1,8 +1,11 @@
 .radio_box {
   gap: 8px;
   width: 100%;
+  height: 56px;
   display: flex;
-  padding: 12px 12px;
+  cursor: pointer;
+  align-items: center;
+  padding: 0px 12px;
   border-radius: 5px;
   flex-direction: row;
   box-sizing: border-box;
@@ -18,14 +21,17 @@
     border: 2px #999 solid;
 
     .thumb {
-      width: 10px;
-      height: 10px;
+      width: 75%;
+      height: 75%;
       border-radius: 50%;
+      transform: scale(0);
+      transition: all 300ms;
       background-color: #999;
     }
   }
 
   .label {
+    font-size: 14px;
     color: #fff;
   }
 }
@@ -38,6 +44,14 @@
   background-color: #fff2;
 }
 
+.unselected {
+  border: 2px #999 solid;
+}
+
+.unselected:active {
+  border: 2px #999 solid;
+}
+
 .selected {
   border: 2px var(--primary-color) solid;
 
@@ -45,7 +59,18 @@
     border: 2px var(--primary-color) solid;
 
     .thumb {
+      transform: scale(1);
       background-color: var(--primary-color);
     }
+  }
+}
+
+.selected:active {
+  border: 2px var(--primary-color) solid;
+}
+
+.tablet {
+  .label {
+    font-size: 16px;
   }
 }

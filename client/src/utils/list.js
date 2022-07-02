@@ -1,6 +1,6 @@
 const list = (array)=> {
   const add = (item)=> {
-    return [...array, item];
+    return [item, ...array];
   }
 
   const deleteById = (itemId)=> {
@@ -11,7 +11,11 @@ const list = (array)=> {
     return array.map((item)=> item.id === itemId ? ({...item, ...values}) : item);
   }
 
-  return {add, deleteById, updateById};
-}
+  const findOneById = (itemId)=> {
+    return array.filter((item)=> item.id === itemId)[0];
+  }
 
+  return {add, deleteById, updateById, findOneById};
+}
+  
 export default list;

@@ -1,6 +1,7 @@
 import React from 'react';
 import clsx from 'clsx';
 import styles from './Field.module.scss';
+import { useViewport } from 'src/hooks/ViewportContext';
 
 const Field = ({
   name,
@@ -19,6 +20,7 @@ const Field = ({
   actions
 })=> {
   const [focused, setFocused] = React.useState(false);
+  const { isTabletWindow } = useViewport();
 
   const handleKeyDown = (ev)=> {
     if(typeof onkeydown === "function") onkeydown(ev);
@@ -38,7 +40,8 @@ const Field = ({
 
   const styles_field = clsx({
     [styles.field]: true,
-    [styles.focused]: focused
+    [styles.focused]: focused,
+    [styles.tablet]: isTabletWindow
   });
 
   return (

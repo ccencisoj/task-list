@@ -1,0 +1,46 @@
+.initial_block {
+  gap: 12px;
+  display: flex;
+  padding-top: 12vh;
+  align-items: center;
+  box-sizing: border-box;
+  flex-direction: column;
+
+  .image {
+    width: 500px;
+  }
+
+  .title {
+    width: 100%;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+  }
+
+  .actions {
+    gap: 12px;
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+@media Only screen And (max-width: 640px) {
+  .initial_block {
+    .image {
+      width: 80vw;
+    }
+  }
+}
+
+@media Only screen And (max-width: 440px) {
+  .initial_block {
+    .image {
+      width: 90vw;
+    }
+
+    .title {
+      font-size: 20px;
+    }
+  }
+}

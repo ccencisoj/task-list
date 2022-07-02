@@ -4,13 +4,20 @@ import styles from './ImageSelector1.module.scss';
 import { useStorage } from 'src/hooks/StorageContext';
 
 const ImageSelector1 = ({onChange})=> {
-  const [image, setImage] = React.useState("/images/user1.svg");
+  const defaultImageURL = "/images/user1.svg";
+  const [image, setImage] = React.useState(defaultImageURL);
   const storage = useStorage();
+
+  React.useEffect(()=> {
+    fetch(defaultImageURL)
+    .then(r => r.blob())
+    .then((imageBlob)=> onChange(imageBlob));
+  }, []);
 
   const loadImage = ()=> {
     storage.loadImage((image)=> {
       setImage(image.src);
-      onChange(image.dataURL);
+      onChange(image.blob);
     });
   }
 

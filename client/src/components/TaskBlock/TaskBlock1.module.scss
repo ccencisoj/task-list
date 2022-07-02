@@ -1,5 +1,7 @@
 .task_block {
   width: 100%;
   display: flex;
+  padding-bottom: 12px;
+  box-sizing: border-box;
   flex-direction: column;
 }

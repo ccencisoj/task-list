@@ -1,45 +1,61 @@
 import React from 'react';
 
 const ViewportContext = React.createContext({
-  width: null,
-  height: null,
+  viewportWidth: null,
+  viewportHeight: null,
   isDesktop: false,
   isTablet: false,
-  isMobile: false
+  isMobile: false,
+  windowWidth: null,
+  windowHeight: null,
+  isDesktopWindow: null,
+  isTabletWindow: null,
+  isMobileWindow: null
 });
 
 const ViewportProvider = ({children})=> {
   const [value, setValue] = React.useState({
-    width: null,
-    height: null,
+    viewportWidth: null,
+    viewportHeight: null,
     isDesktop: false,
     isTablet: false,
-    isMobile: false
+    isMobile: false,
+    windowWidth: null,
+    windowHeight: null,
+    isDesktopWindow: null,
+    isTabletWindow: null,
+    isMobileWindow: null
   });
 
-  const getViewport = ()=> {
-    const width = window.innerWidth;
-    const height = window.innerHeight;
-    const isMobile = window.innerWidth <= 640;
-    const isDesktop = window.innerWidth >= 1024;
-    const isTablet = window.innerWidth > 640 && window.innerWidth < 1024; 
-    return { width, height, isDesktop, isTablet, isMobile };
-  }
+  const wrapperRef = React.useRef();
 
-  const resizedWindow = ()=> {
-    const viewport = getViewport();
-    setValue(viewport);
+  const updateViewport = ()=> {
+    const wrapper = wrapperRef.current;
+    const rect = wrapper.getBoundingClientRect();
+
+    setValue({
+      viewportWidth: rect.width,
+      viewportHeight: rect.height,
+      isMobile: rect.width <= 640,
+      isDesktop: rect.width >= 1024,
+      isTablet: rect.width > 640 && rect.width < 1024,
+      windowWidth: window.innerWidth,
+      windowHeight: window.innerHeight,
+      isMobileWindow: window.innerWidth <= 640,
+      isDesktopWindow: window.innerWidth >= 1024,
+      isTabletWindow: window.innerWidth > 640 && window.innerWidth < 1024,
+    });
   }
 
   React.useEffect(()=> {
-    const viewport = getViewport();
-    setValue(viewport);
-    window.addEventListener("resize", resizedWindow);
+    updateViewport();
+    window.addEventListener("resize", updateViewport);
+    return ()=> window.removeEventListener("resize", updateViewport);
   }, []);
 
   return (
     <ViewportContext.Provider value={value}>
-      {children}
+      <div ref={wrapperRef} style={{width: "100%"}}>{children}</div>
     </ViewportContext.Provider>
   )
 } 

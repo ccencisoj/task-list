@@ -29,3 +29,9 @@
     justify-content: flex-end;
   }
 }
+
+@media Only screen and (max-width: 440px) {
+  .navigation {
+    padding: 0px 8px;
+  }
+}

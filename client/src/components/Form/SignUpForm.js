@@ -23,6 +23,13 @@ const SignUpForm = ()=> {
   const [image, setImage] = React.useState("");
   const router = useRouter();
 
+  const handleChangeImage = (image)=> {
+    agent.Temp.image(image)
+    .then((response)=> {
+      setImage(response.data.image);
+    });
+  }
+
   const handleSubmit = async ({username, email, password})=> {
     agent.User.signUp({
       image,
@@ -30,8 +37,8 @@ const SignUpForm = ()=> {
       email, 
       password
     }).then((response)=> {
+      console.log(response);
       router.push("/taskList");
-
     }).catch((error)=> {
       setError(error?.response?.data?.message);
     });
@@ -61,7 +68,7 @@ const SignUpForm = ()=> {
           </div>
           <div className={styles.main}>
             <Container columnDirection mediumSeparation>
-              <ImageSelector1 onChange={(image)=> setImage(image)}/>
+              <ImageSelector1 onChange={handleChangeImage}/>
               <Field 
                 type="text"
                 name="username"

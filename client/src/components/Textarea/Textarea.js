@@ -1,6 +1,8 @@
 import React from 'react';
 import clsx from 'clsx';
 import styles from './Textarea.module.scss';
+import TextareaAutosize from 'react-textarea-autosize';
+import { useViewport } from 'src/hooks/ViewportContext';
 
 const Textarea = ({
   name,
@@ -19,6 +21,7 @@ const Textarea = ({
   actions
 })=> {
   const [focused, setFocused] = React.useState(false);
+  const { isTabletWindow } = useViewport();
 
   const handleKeyDown = (ev)=> {
     if(typeof onkeydown === "function") onkeydown(ev);
@@ -36,16 +39,17 @@ const Textarea = ({
     if(typeof onBlur === "function") onBlur(ev);
   }
 
-  const styles_field = clsx({
-    [styles.field]: true,
-    [styles.focused]: focused
+  const styles_textarea = clsx({
+    [styles.textarea]: true,
+    [styles.focused]: focused,
+    [styles.tablet]: isTabletWindow
   });
 
   return (
-    <div className={styles_field}>
+    <div className={styles_textarea}>
       {label && <p className={styles.label}>{label}</p>}
       <div className={styles.row}>
-        <input 
+        <TextareaAutosize
           type={type || "text"}
           name={name}
           className={styles.input}

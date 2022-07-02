@@ -16,7 +16,8 @@ const Button = ({
   loading,
   small,
   big,
-  transparentTheme
+  transparentTheme,
+  redTheme
 })=> {
   const onlyIcon = Icon && !label;
 
@@ -24,12 +25,15 @@ const Button = ({
     [styles.button]: true,
     [styles.primary]: primary,
     [styles.secondary]: secondary,
+    [styles.small]: small,
+    [styles.big]: big,
     [styles.icon_button]: onlyIcon,
     [styles.small_icon_button]: small && onlyIcon,
     [styles.big_icon_button]: big && onlyIcon,
     [styles.flex]: flex,
     [styles.expand]: expand,
-    [styles.transparent_theme]: transparentTheme
+    [styles.transparent_theme]: transparentTheme,
+    [styles.red_theme]: redTheme
   });
 
   return (

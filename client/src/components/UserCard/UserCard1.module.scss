@@ -34,3 +34,10 @@
 .user_card:active {
   background-color: var(--secondary-color-active);
 }
+
+.mobile {
+  .image {
+    width: 24px;
+    height: 24px;
+  }
+}

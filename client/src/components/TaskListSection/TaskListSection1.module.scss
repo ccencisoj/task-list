@@ -8,29 +8,72 @@
     left: 0px;
     width: 350px;
     position: sticky;
+    padding: 0px 12px;
     overflow-y: scroll;
     overflow-x: hidden;
+    box-sizing: border-box;
+    border-right: 1px #444 solid;
     height: calc(100vh - var(--navigation-height));
   }
-
+  
   .task_block::-webkit-scrollbar {
     width: 0px;
   }
-
+  
   .task_form {
     flex: 1;
+    padding: 48px 5vw;
     background-color: var(--secondary-background);
     min-height: calc(100vh - var(--navigation-height));
   }
 
   .setting_block {
     width: 350px;
+    padding: 0px 12px;
     overflow-y: scroll;
     overflow-x: hidden;
+    box-sizing: border-box;
+    border-left: 1px #444 solid;
     height: calc(100vh - var(--navigation-height));
   }
 
   .setting_block::-webkit-scrollbar {
     width: 0px;
+  }
+}
+
+@media Only screen and (max-width: 1250px){
+  .task_list_section {
+    .task_form {
+      padding: 32px 2vw;
+    }
+
+    .setting_block {
+      width: 300px;
+    }
+  }
+}
+
+@media Only screen and (max-width: 1200px){
+  .task_list_section {
+    .task_form {
+      padding: 32px 5vw;
+    }
+
+    .setting_block {
+      display: none;
+    }
+  }
+}
+
+@media Only screen and (max-width: 1024px){
+  .task_list_section {
+    .task_block {
+      width: 100%;
+    }
+
+    .task_form {
+      display: none;
+    }
   }
 }

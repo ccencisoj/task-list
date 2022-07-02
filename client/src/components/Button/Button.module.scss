@@ -3,7 +3,7 @@
   --height: 56px;
   height: var(--height);
   display: flex;
-  padding: 0px 64px;
+  padding: 0px 32px;
   align-items: center;
   border-radius: 5px;
   flex-direction: row;
@@ -26,6 +26,14 @@
     height: 24px;
     color: var(--color);
   }
+}
+
+.button:hover {
+  box-shadow: inset 0px 4px 12px #fff1;
+}
+
+.button:active {
+  background-color: #fff2;
 }
 
 .primary {
@@ -63,6 +71,7 @@
 
 .transparent_theme {
   --color: #fff;
+  border: 0px;
   background-color: transparent;
 }
 
@@ -72,4 +81,13 @@
 
 .transparent_theme:active {
   background-color: #fff2;
+}
+
+.red_theme {
+  --color: #f00;
+  border-color: #f00;
+}
+
+.small {
+  height: 48px;
 }
