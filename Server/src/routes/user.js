@@ -1,4 +1,5 @@
 const { Router } = require('express');
+const path = require('path');
 const model = require('../model/user.js');
 const uploadFile = require('../middleware/multer');
 
@@ -48,6 +49,8 @@ router.put('/user', async (req, res)=>{
 
 router.post('/user/upload', uploadFile(), (req, res)=>{
     let image = req.files;
-    res.send(image);
-})
+    let documentName= req.file.filename;
+    let uri = path.resolve(__dirname, `../uploads/${documentName}`);
+    res.send(uri)
+});
 module.exports = router;
