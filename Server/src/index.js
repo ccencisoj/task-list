@@ -12,7 +12,7 @@ let db = dbConection()
 
 //Middleware 
 app.use(cors({
-    origin: ["http://192.168.100.6:3000"],
+    origin: ["http://192.168.20.24:3000", 'http://localhost:3000'],
     credentials: true
 }));
 app.use(express.json());

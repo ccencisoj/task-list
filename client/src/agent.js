@@ -5,7 +5,7 @@ const axios = _axios.create({
   withCredentials: true
 }); 
 
-const API_ROOT = "http://192.168.100.6:4000";
+const API_ROOT = "http://192.168.20.24:4000";
 
 const requests = {
   get: (url, config)=> 
