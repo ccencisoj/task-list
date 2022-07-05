@@ -15,25 +15,17 @@
   ],
   "rootMainFiles": [],
   "pages": {
-<<<<<<< HEAD
-=======
     "/": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/index.js"
     ],
->>>>>>> 2793ec0eea3bf84a110d73e67cea34d7f668414d
     "/_app": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/_app.js"
     ],
     "/_error": [
-<<<<<<< HEAD
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/_error.js"
-=======
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
@@ -42,7 +34,11 @@
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/signUp.js"
->>>>>>> 2793ec0eea3bf84a110d73e67cea34d7f668414d
+    ],
+    "/taskList": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/taskList.js"
     ]
   },
   "ampFirstPages": []
