@@ -51,6 +51,8 @@ router.post('/user/upload', uploadFile(), (req, res)=>{
     let image = req.files;
     let documentName= req.file.filename;
     let uri = path.resolve(__dirname, `../uploads/${documentName}`);
-    res.send(uri);
+    res.json({
+        avatar: uri
+    });
 });
 module.exports = router;
