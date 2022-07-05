@@ -1,5 +1,3 @@
-console.log(process.env.NAME);
-
 const express = require('express');
 const logger = require('morgan');
 const taskRouter = require('./routes/task');
