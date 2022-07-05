@@ -5,9 +5,9 @@ const uploadFile = require('../middleware/multer');
 const router = Router();
 
 router.get('/user', async(req, res)=>{
-    let query = req.query;
+    let body = req.body;
     try {
-        let user = await model.find(query);
+        let user = await model.findOne(body);
         res.json(user);
     } catch (error) {
         res.json(error);

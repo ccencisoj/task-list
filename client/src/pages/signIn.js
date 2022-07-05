@@ -24,4 +24,4 @@ const SignIn = ()=> {
 
 export default SignIn;
 
-export const getServerSideProps = serverSideSignOut;
+// export const getServerSideProps = serverSideSignOut;

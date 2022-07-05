@@ -22,14 +22,16 @@ const requests = {
 };
 
 const User = {
-  signUp: ({image, username, email, password})=>
-    requests.post("/user/signUp", {image, username, email, password}),
+  signUp: ({avatar, username, email, password})=>
+    requests.post("/user", {avatar, username, email, password}),
   signIn: ({email, password})=>
-    requests.post("/user/signIn", {email, password}),
+    requests.get("/user", {email, password}),
   signOut: (config)=> 
     requests.get("/user/signOut", config),
   current: (config)=>
-    requests.get("/user/current", config)
+    requests.get("/user/current", config),
+  avatar: (avatar)=>
+    requests.postFormData("/user/upload", {avatar})
 };
 
 const Task = {
@@ -45,13 +47,7 @@ const Task = {
     requests.delete(`/task?id=${taskId}`)
 };
 
-const Temp = {
-  image: (image)=>
-    requests.postFormData("/temp/image", {image})
-};
-
 export default {
   User,
-  Task,
-  Temp
+  Task
 };

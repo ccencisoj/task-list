@@ -43,4 +43,4 @@ const TaskList = ({taskList})=> {
 
 export default connect(mapStateToProps, null)(TaskList);
 
-// export const getServerSideProps = serverSideAuth;
+export const getServerSideProps = serverSideAuth;

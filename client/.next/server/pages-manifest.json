@@ -1,14 +1,5 @@
 {
   "/_app": "pages/_app.js",
-  "/taskList": "pages/taskList.html",
   "/_error": "pages/_error.js",
-<<<<<<< HEAD
   "/_document": "pages/_document.js"
-=======
-  "/": "pages/index.js",
-  "/signIn": "pages/signIn.js",
-  "/signUp": "pages/signUp.js",
-  "/_document": "pages/_document.js",
-  "/404": "pages/404.html"
->>>>>>> 071a6edb5e6a2c5952b0c0d5b5117168a4bc2ad2
 }

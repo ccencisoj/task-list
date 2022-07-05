@@ -10,19 +10,19 @@ const UserContext = React.createContext({
 const UserProvider = ({children})=> {
   const [state, setState] = React.useState(null);
 
-  React.useEffect(()=> {
-    agent.User.current().then((response)=> {
-      const user = response.data.user;
+  // React.useEffect(()=> {
+  //   agent.User.current().then((response)=> {
+  //     const user = response.data.user;
       
-      if(user) {
-        setState({
-          email: user.email, 
-          image: user.image,
-          username: user.username
-        });
-      } 
-    });
-  }, [children]);
+  //     if(user) {
+  //       setState({
+  //         email: user.email, 
+  //         image: user.image,
+  //         username: user.username
+  //       });
+  //     } 
+  //   });
+  // }, [children]);
 
   return (
     <UserContext.Provider value={state}>

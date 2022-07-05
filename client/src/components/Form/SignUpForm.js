@@ -20,19 +20,19 @@ const SignUpSchema = Yup.object().shape({
 
 const SignUpForm = ()=> {
   const [error, setError] = React.useState("");
-  const [image, setImage] = React.useState("");
+  const [avatar, setAvatar] = React.useState("");
   const router = useRouter();
 
   const handleChangeImage = (image)=> {
-    agent.Temp.image(image)
+    agent.User.avatar(image)
     .then((response)=> {
-      setImage(response.data.image);
+      setAvatar(response.data.avatar);
     });
   }
 
   const handleSubmit = async ({username, email, password})=> {
     agent.User.signUp({
-      image,
+      avatar,
       username,
       email, 
       password
